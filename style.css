@@ -2,6 +2,15 @@
 ::placeholder{
   color: #666666;
 }
+body{
+  overflow-x: hidden;
+}
+@media (min-width: 768px){
+  .menu-helper {
+      background-color: transparent;
+      display: none;
+  }
+}
 .container{
   max-width: 1460px;
   padding-right: 20px;
@@ -42,8 +51,10 @@ background: transparent;
 }
 .top-navigation-bar-menu li a, .top-navigation-bar-menu-helper li a, .top-navigation-bar a, .top-navigation-bar .dropdown button {
   color: white;
-padding: 4px 10px;
+  padding: 4px 10px;
     text-transform: none;
+    font-size: 14px;
+    font-weight: 400;
 }
 .top-navigation-bar .dropdown button{
 display: none;
@@ -51,8 +62,17 @@ display: none;
 .top-menu-trigger-visible .top-navigation-menu-trigger {
   display: none;;
 }
+.top-navigation-bar .container>div{
+  display: flex;
+    flex-basis: auto;
+    padding: 0;
+    justify-content: flex-end;
+}
 .top-navigation-bar .container > div:last-child, .top-navigation-bar .container>div:first-child{
-flex-basis: none;
+flex-basis: auto;
+}
+.top-navigation-bar .container>div:first-child{
+  justify-content: flex-start;
 }
 .top-navigation-bar .container>div.top-navigation-tools--language{
 display: none;
@@ -84,6 +104,9 @@ width: auto;
   background: #B71F39;
       height: 100%;
 }
+.header-top .btn.cart-count::before{
+  margin-right: 15px;
+}
   #navigation {
   margin-left: 0px;
   margin-right: 0px;
@@ -107,6 +130,7 @@ width: auto;
   background-color: transparent;
   height: 100%;
   z-index: 1;
+  width: 100%;
 }
 .navigation-in>ul>li{
   border: 0;
@@ -132,7 +156,7 @@ width: auto;
 .navigation-in>ul>li.ext.exp:first-child>a{
   padding: 0 25px;
 }
-.navigation-in>ul>li.exp>a, .navigation-in>ul>li>a:hover {
+.navigation-in>ul>li.exp>a, .navigation-in>ul>li>a:hover, .navigation-in>ul>li:first-child>a:hover {
   padding: 0 25px;
   margin: 0;
   color: white;
@@ -164,12 +188,15 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 color: white;
 
 }
-.compact-form .btn{
-background-color: transparent;
-border: 0;
-color: #192E3A;
-height: 100%;
-    width: auto;
+.search-form.compact-form .btn{
+  background-color: transparent;
+  border: 0;
+  color: #192E3A;
+  height: 100%;
+  width: 54px;
+  font-size: 0;
+  background: #eee;
+  background-image: url("");
 }
 input[type="search"].form-control{
 height: 54px;
