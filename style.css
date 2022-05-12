@@ -11,6 +11,12 @@ body{
       display: none;
   }
 }
+.desktop.in-index #content-wrapper{
+  display: none;
+}
+#content-wrapper{
+  padding: 40px 0;
+}
 .container{
   max-width: 1460px;
   padding-right: 20px;
@@ -46,8 +52,6 @@ background: #F9FAFB;
 @media (min-width: 768px){
   .content-wrapper-in {
     display: flex;
-    padding: 40px 0;
-   
 }
 }
 
@@ -372,6 +376,10 @@ font-size: 15px;
  background-color: #fff;
 padding: 10px;
 }
+.homepage-box.before-carousel .content-wrapper-in{
+
+}
+
 .homepage-products-1, .homepage-products-2{
 padding-bottom: 100px;
 }
@@ -413,6 +421,15 @@ z-index: 1;
 .benefitBanner__item{
 margin: 0;
 }
+.type-product .benefitBanner{
+  background: transparent;
+  border-top: 1px solid #E6EBF0;
+  border-bottom: 1px solid #E6EBF0;
+}
+.type-product .benefitBanner::before{
+  content: none;
+}
+
 .homepage-box.welcome-wrapper{
 padding: 0;
 margin: 0;
@@ -435,6 +452,8 @@ padding-bottom: 10px;
     color: #b2b2b2;
     background-color: transparent;
     border: none;
+  padding: 0;
+  margin: 0;
 }
 .breadcrumbs>span {
     align-self: center;
@@ -444,6 +463,30 @@ padding-bottom: 10px;
     display: flex;
     padding: 10px 0;
 }
+.breadcrumbs>span>a, .breadcrumbs>span>span {
+    padding: 12px 15px;
+}
+
+.navigation-home-icon-wrapper::before{
+  content:none;
+}
+.navigation-home-icon-wrapper #navigation-first a{
+  padding: 0;
+  margin-right: 15px;
+      width: auto;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.navigation-home-icon-wrapper #navigation-first a::after{
+  content: "Domů";
+  transform: none;
+  border: 0;
+  background: none;
+  position: relative;
+      width: auto;
+}
+
 
 .product-top {
     margin-bottom: 60px;
@@ -454,8 +497,6 @@ padding-bottom: 10px;
   background: transparent;
   align-items: center;
     display: flex;
-  
-  
 }
 .p-image-wrapper #wrap{
   background-color: #f9fafb;
@@ -600,7 +641,41 @@ width:10px;
 .shp-tabs-wrapper .description-inner{
   flex-direction: column;
   align-items: center;
+  padding: 0;
 }
+.shp-tabs-wrapper .description-inner h3{
+  text-align:center;
+  font-size: 34px;
+      font-weight: 500;
+}
+
+ .shp-tabs-wrapper .description-inner .basic-description {
+    flex: 1 1 auto;
+    width: 100%;
+    padding-right: 0px;
+     width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.shp-tabs-wrapper .description-inner .basic-description p{
+  text-align:center;
+
+}
+.shp-tabs-wrapper .description-inner .extended-description{
+  
+}
+.shp-tabs-wrapper .description-inner .extended-description{
+  padding: 0;
+}
+.shp-tabs-wrapper .description-inner .extended-description .detail-parameters{
+  width: 100%;
+  background: white;
+}
+.shp-tabs-wrapper .description-inner .extended-description .detail-parameters th, .shp-tabs-wrapper .description-inner .extended-description .detail-parameters td{
+  padding: 8px 20px;
+  font-size: 16px;
+}
+
 footer{
   background: white;
 }
