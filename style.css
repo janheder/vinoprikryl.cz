@@ -48,6 +48,7 @@ background: #F9FAFB;
 }
 .product-top>.col-xs-12:first-child {
     width: 100%;
+    display: none;
 }
 @media (min-width: 768px){
   .content-wrapper-in {
@@ -109,7 +110,64 @@ content: none;
 .banners-row{
 margin: 0;
 }
+
+
+.header-top .btn.cart-count::before{
+  margin-right: 15px;
+  height: 100%;
+  content: "";
+  background: transparent;
+  background-image: url("https://janheder.github.io/vinoprikryl.cz/icons/cart-white.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 0;
+  background-size: 100%;
+  width: 18px;
+}
+
+
+@media (max-width: 767px){
+    .top-navigation-bar{
+    display: none;
+  }
+
+  #header {
+    top: 0;
+    margin: 0;
+    height: 56px;
+  }
+  #header .site-name {
+    text-align: left;
+    top: 0;
+    height: 100%;
+    position: relative;
+    left: 0;
+}
+  #header .navigation-wrapper {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+  #header .navigation-buttons{
+    display: flex;
+    width: 100%;
+  }
+  #header .cart-count{
+    top: 0;
+    display: flex;
+    width: 56px;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    right: 0;
+  }
+  .header-top .btn.cart-count::before{
+    margin: 0;
+  }
+}
 @media (min-width: 768px){
+
  #header .navigation-buttons {
   height: 54px;
   padding: 0;
@@ -124,18 +182,7 @@ width: auto;
   background: #B71F39;
       height: 100%;
 }
-.header-top .btn.cart-count::before{
-  margin-right: 15px;
-  height: 100%;
-  content: "";
-  background: transparent;
-  background-image: url("https://janheder.github.io/vinoprikryl.cz/icons/cart-white.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  font-size: 0;
-  background-size: 100%;
-  width: 18px;
-}
+
   #navigation {
   margin-left: 0px;
   margin-right: 0px;
@@ -181,6 +228,7 @@ width: auto;
   align-items: center;
   font-size: 16px;
   padding: 0 25px;
+  text-align: center;
 }
 .navigation-in>ul>li.ext.exp:first-child>a{
   padding: 0 25px;
@@ -466,7 +514,9 @@ padding-bottom: 10px;
 .breadcrumbs>span>a, .breadcrumbs>span>span {
     padding: 12px 15px;
 }
-
+.breadcrumbs>span>a::before, .breadcrumbs>span>a::after{
+  content: none;
+}
 .navigation-home-icon-wrapper::before{
   content:none;
 }
@@ -520,6 +570,7 @@ padding-bottom: 10px;
 .p-info-wrapper .availability-value{
   order: 10;
   margin: 0;
+  font-size: 16px;
 }
 .p-info-wrapper .detail-parameters{
   order: 15;
@@ -528,11 +579,16 @@ padding-bottom: 10px;
 .p-info-wrapper .p-short-description{
   order: 2;
 }
-.p-info-wrapper .p-short-description p{
+
+.p-info-wrapper .p-short-description > *{
+  display: none;
+}
+.p-info-wrapper .p-short-description p:first-child{
   margin-bottom: 8px;
   height: 44px;
   overflow: hidden;
   font-size: 15px;
+  display: flex;
 }
 .p-info-wrapper .add-to-cart{
   flex-wrap: nowrap;
@@ -610,6 +666,9 @@ width:10px;
 .p-detail-info{
   display: none;
 }
+.p-detail-inner > .p-detail-inner-header{
+  display: none;
+}
 .p-detail-inner-header h1{
   display: none;
 }
@@ -647,15 +706,19 @@ width:10px;
   text-align:center;
   font-size: 34px;
       font-weight: 500;
+     
 }
 
- .shp-tabs-wrapper .description-inner .basic-description {
-    flex: 1 1 auto;
-    width: 100%;
-    padding-right: 0px;
-     width: 100%;
+.shp-tabs-wrapper .description-inner .basic-description {
+  flex: 1 1 auto;
+  width: 100%;
+  padding-right: 0px;
+  width: 100%;
   max-width: 700px;
   margin: 0 auto;
+}
+.shp-tabs-wrapper .description-inner .basic-description h3{
+   margin-top: 0;
 }
 .shp-tabs-wrapper .description-inner .basic-description p{
   text-align:center;
@@ -678,4 +741,14 @@ width:10px;
 
 footer{
   background: white;
+}
+
+.cart-row{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-row .col-md-4.sidebar-in-cart{
+  
 }
