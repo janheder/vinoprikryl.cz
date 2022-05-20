@@ -211,7 +211,13 @@ body {
     background: #B71F39;
     height: 100%;
   }
-
+  .header-top{
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
   #navigation {
     margin-left: 0px;
     margin-right: 0px;
