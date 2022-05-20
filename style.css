@@ -5,6 +5,7 @@
 
 body {
   overflow-x: hidden;
+	font-family: "Cerebri Sans",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -36,7 +37,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0 25px;
-  width: 100%;
+  width: auto;
   color: white;
   background: #2C8F35;
   border-radius: 4px;
@@ -906,9 +907,16 @@ footer {
   display: flex;
   flex-direction: column;
 }
-
-.cart-row .col-md-4.sidebar-in-cart {}
-
+.cart-row>div.col-md-8{
+  width: 100%;
+}
+.cart-row .col-md-4.sidebar-in-cart {
+  width: 100%;
+  padding: 0;
+}
+.cart-row .col-md-4.sidebar-in-cart .checkout-box-wrapper{
+  display: none;
+}
 .image360, .p-image {
   margin: 0;
 }
