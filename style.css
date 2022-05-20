@@ -74,7 +74,7 @@ body {
   background-color: #652057;
   border-top: 0;
   border-bottom-color: rgba(255, 255, 255, 0.1);
-  height: 40px;
+  height: 100%;
   display: flex;
 }
 
@@ -88,6 +88,10 @@ body {
   text-transform: none;
   font-size: 14px;
   font-weight: 400;
+}
+.top-navigation-bar a:hover, .top-navigation-bar .dropdown button:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 .top-navigation-bar .dropdown button {
@@ -257,7 +261,7 @@ body {
   }
 
   #navigation {
-    height: 56px;
+    height: 54px;
   }
 
   .navigation-in ul {
@@ -865,20 +869,32 @@ h4.homepage-group-title, .h4.homepage-group-title {
 
 }
 
-.shp-tabs-wrapper .description-inner .extended-description {}
-
 .shp-tabs-wrapper .description-inner .extended-description {
   padding: 0;
+  width: 100%;
 }
+
 
 .shp-tabs-wrapper .description-inner .extended-description .detail-parameters {
-  width: 100%;
+  display: flex;
   background: white;
+  padding: 20px;
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
 }
-
+.shp-tabs-wrapper .description-inner .extended-description .detail-parameters tbody{
+  width: 100%;
+}
+.shp-tabs-wrapper .description-inner .extended-description .detail-parameters tr{
+  width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
 .shp-tabs-wrapper .description-inner .extended-description .detail-parameters th, .shp-tabs-wrapper .description-inner .extended-description .detail-parameters td {
   padding: 8px 20px;
   font-size: 16px;
+  flex-grow: 1;
 }
 
 footer {
@@ -1114,4 +1130,14 @@ footer {
 .popup-widget-inner .cart-widget-products {
   overflow: hidden;
   max-height: 100%;
+}
+
+
+.cart-heading{
+  padding: 0;
+}
+
+.p-gifts-wrapper {
+  margin: 29px 0;
+  margin-top: 10px;
 }
