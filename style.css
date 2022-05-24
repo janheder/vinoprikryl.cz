@@ -404,9 +404,19 @@ input[type="search"].form-control {
 }
 
 .flag.flag-discount {
-  background-color: #B71F39;
+  background-color: transparent;
+  width: 60px;
+    height: 67px;
+    background-image: url("https://janheder.github.io/vinoprikryl.cz/img/flag-discount.svg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
+.flags-extra .flag .price-standard, .flags-extra .flag .price-save{
+  font-size: 18px;
+}
+.flag.flag-discount .price-standard{
+  display: none;
+}
 .flag.flag-freeshipping {
   display: none;
 }
@@ -1109,6 +1119,9 @@ footer {
   margin-top: 20px;
   bottom: 0;
   position: relative;
+  display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .user-action-cart .cart-free-shipping strong {
@@ -1123,6 +1136,8 @@ footer {
 
 .user-action-cart .cart-widget-button .btn {
   flex-grow: 1;
+  text-align: center;
+  display: flex;
 }
 
 @media screen and (min-width: 992px) {
