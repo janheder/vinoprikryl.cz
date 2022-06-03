@@ -5,11 +5,15 @@
 
 body {
   overflow-x: hidden;
+  color: #192E3A;
 }
+
 body, body * {
 	font-family: "Cerebri Sans",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
 }
-
+a, .link-like {
+  color: #652057;
+}
 h4.homepage-group-title, .h4.homepage-group-title{
   font-family: "Signika" !important;
 }
@@ -657,7 +661,7 @@ h4.homepage-group-title, .h4.homepage-group-title {
 }
 
 .breadcrumbs>span>a, .breadcrumbs>span>span {
-  padding: 12px 15px;
+  padding: 10px 15px;
 }
 
 .breadcrumbs>span>a::before, .breadcrumbs>span>a::after {
@@ -745,10 +749,11 @@ h4.homepage-group-title, .h4.homepage-group-title {
 
 .p-info-wrapper .p-short-description p:first-child {
   margin-bottom: 8px;
-  height: 44px;
+  max-height: 44px;
   overflow: hidden;
   font-size: 15px;
   display: flex;
+  color: #475861;
 }
 
 .p-info-wrapper .add-to-cart {
@@ -867,6 +872,11 @@ h4.homepage-group-title, .h4.homepage-group-title {
 .p-info-wrapper .p-detail-inner-header h1 {
   display: flex;
   margin-top: 0;
+  font-family: 'Signika';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 44px;
 }
 
 .p-info-wrapper .stars-wrapper {
@@ -946,6 +956,11 @@ h4.homepage-group-title, .h4.homepage-group-title {
   font-size: 16px;
   flex-grow: 1;
 }
+.shp-tabs-wrapper .description-inner .extended-description .detail-parameters tr:nth-child(2n) td{ 
+  background: #F9FAFB;
+}
+
+
 
 footer {
   background: white;
@@ -1226,13 +1241,20 @@ footer {
     width: 100px;
     border: 1px solid #E6EBF0;
 }
+@media (max-width: 991px) {
+  .products-block .p-bottom .p-tools .pr-action .quantity{
+    display: none;
+  }
+}
 .products-block .p-bottom .p-tools .pr-action .btn.btn-cart{
   background: rgba(44,143,53,0.1);
   color: #2C8F35;
   font-size: 15px;
+  padding: 0 20px;
 }
 .products-block .p-bottom .p-tools .pr-action .btn.btn-cart::before{
   background-image: url("https://janheder.github.io/vinoprikryl.cz/icons/cart-green.svg");
+  margin-right: 8px;
 }
 .products-block .p-bottom .p-desc ~ *{
   display: none;
@@ -1259,6 +1281,7 @@ footer {
     align-items: center;
     border-radius: 4px;
     padding: 0 25px;
+    font-size: 15px;
 }
 @media (max-width: 767px) {
   .navigation-buttons a[data-target="login"]{
@@ -1317,4 +1340,10 @@ footer {
 .responsive-tools {
   padding: 0;
 }
+}
+.p-info-wrapper .p-short-description + p a{
+  color: #192E3A;
+}
+.p-info-wrapper .p-short-description + p a::after{
+
 }
