@@ -14,9 +14,7 @@ body, body * {
 a, .link-like {
   color: #652057;
 }
-h4.homepage-group-title, .h4.homepage-group-title{
-  font-family: "Signika" !important;
-}
+
 
 @media (min-width: 768px) {
   .menu-helper {
@@ -132,6 +130,9 @@ h4.homepage-group-title, .h4.homepage-group-title{
 .top-navigation-menu{
   margin-right: -10px;
 }
+.top-navigation-bar-menu{
+  display: flex;
+}
 .top-navigation-bar-menu li a, .top-navigation-bar-menu-helper li a, .top-navigation-bar a, .top-navigation-bar .dropdown button {
   color: white;
   padding: 4px 10px;
@@ -142,6 +143,11 @@ h4.homepage-group-title, .h4.homepage-group-title{
 .top-navigation-bar a:hover, .top-navigation-bar .dropdown button:hover {
   color: white;
   text-decoration: underline;
+}
+@media (min-width: 768px){
+  #content .btn.unveil-button, #footer .btn.unveil-button {
+    display: inline-flex;
+}
 }
 
 .top-navigation-bar .dropdown button {
@@ -603,15 +609,15 @@ input[type="search"].form-control {
   padding-bottom: 100px;
 }
 
-h4.homepage-group-title, .h4.homepage-group-title {
+h4.homepage-group-title, .h4.homepage-group-title, .favoriteCategories__title {
   margin-top: 80px;
   font-size: 38px;
   line-height: 36px;
   text-align: center;
   font-weight: 400;
   color: #192E3A;
-  margin-bottom: 60px;
-
+  margin-bottom: 40px;
+  font-family: "Signika" !important;
 }
 
 .homepage-box {
@@ -767,6 +773,7 @@ h4.homepage-group-title, .h4.homepage-group-title {
 .p-info-wrapper .p-final-price-wrapper .price-final-holder{
   font-size: 28px;
   font-family: "Signika" !important;
+  font-weight: 500;
 }
 
 .p-info-wrapper .availability-value {
@@ -1636,4 +1643,28 @@ margin: 0;
 .favoriteCategories__single{
   background: white;
   padding: 30px 20px;
+}
+
+
+.category-header{
+  background: transparent;
+  border-bottom: 1px solid #E6EBF0;
+}
+
+
+.filters-wrapper{
+  margin-bottom: 20px;
+}
+
+.filters-unveil-button-wrapper{
+  text-align: left;
+  margin: 0;
+}
+.filters-unveil-button-wrapper .unveil-button{
+  height: 44px;
+} 
+#content .filters.visible, #footer .filters.visible{
+  margin: 0;
+  background: white;
+  padding: 20px;
 }
