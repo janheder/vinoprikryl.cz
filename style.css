@@ -1184,7 +1184,7 @@ footer {
 .products-block .p-bottom .p-tools .pr-action{
   display: flex;
 }
-.products-block .p-bottom .p-desc ~ p{
+.products-block .p-bottom .p-desc ~ *{
   display: none;
 }
 
@@ -1209,4 +1209,8 @@ footer {
     align-items: center;
     border-radius: 4px;
     padding: 0 25px;
+}
+
+.top-navigation-contacts a:first-of-type {
+  padding-left: 0;
 }
