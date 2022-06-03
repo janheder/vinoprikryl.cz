@@ -30,7 +30,8 @@ h4.homepage-group-title, .h4.homepage-group-title{
 }
 
 #content-wrapper {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .ordering-process #content-wrapper{
   padding-top: 0;
@@ -38,10 +39,22 @@ h4.homepage-group-title, .h4.homepage-group-title{
 
 .container {
   max-width: 1460px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
   width: 100%;
   margin: 0 auto;
+}
+@media (min-width: 991px) {
+  .container {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+@media (min-width: 575px) {
+  .container {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
 }
 
 .btn, a.btn {
@@ -73,7 +86,11 @@ h4.homepage-group-title, .h4.homepage-group-title{
   width: 100%;
   display: none;
 }
-
+@media (min-width: 991px) {
+  .product-top {
+    flex-direction: column;
+  }
+}
 @media (min-width: 768px) {
   .content-wrapper-in {
     display: flex;
@@ -727,6 +744,10 @@ h4.homepage-group-title, .h4.homepage-group-title {
   order: 30;
   margin-top: 30px;
 }
+.p-info-wrapper .p-final-price-wrapper .price-final-holder{
+  font-size: 28px;
+  font-family: "Signika";
+}
 
 .p-info-wrapper .availability-value {
   order: 10;
@@ -954,7 +975,7 @@ line-height: 44px;
 .shp-tabs-wrapper .description-inner .extended-description .detail-parameters th, .shp-tabs-wrapper .description-inner .extended-description .detail-parameters td {
   padding: 8px 20px;
   font-size: 16px;
-  flex-grow: 1;
+  flex-basis: 100%;
 }
 .shp-tabs-wrapper .description-inner .extended-description .detail-parameters tr:nth-child(2n) td{ 
   background: #F9FAFB;
