@@ -24,7 +24,24 @@ h4.homepage-group-title, .h4.homepage-group-title{
     display: none;
   }
 }
+@media (min-width: 768px){
+.content {
+    padding: 0;
+}
+}
 
+@media (min-width: 768px){
+  .header-top>div {
+    flex: auto;
+    align-self: center;
+}
+}
+
+.header-top {
+  display: flex;
+  height: 100%;
+  flex-wrap: nowrap;
+}
 .desktop.in-index #content-wrapper {
   display: none;
 }
@@ -175,7 +192,7 @@ h4.homepage-group-title, .h4.homepage-group-title{
 }
 
 .banners-row {
-  margin: 0;
+  margin: 0 !important;
 }
 
 
@@ -192,8 +209,10 @@ h4.homepage-group-title, .h4.homepage-group-title{
   width: 18px;
 }
 
-
 @media (max-width: 767px) {
+  .type-index .overall-wrapper {
+    padding-top: 56px;
+}
   .top-navigation-bar {
     display: none;
   }
@@ -252,6 +271,7 @@ h4.homepage-group-title, .h4.homepage-group-title{
   #header .navigation-buttons {
     height: 54px;
     padding: 0;
+    flex-wrap: nowrap;
   }
 
   #header .cart-count {
