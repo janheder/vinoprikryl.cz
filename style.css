@@ -1272,3 +1272,41 @@ footer {
   display: flex;
   height: 100%;
 }
+
+.visible-lg-inline-block {
+  display: inline-block !important;
+}
+
+.responsive-tools>a[data-target="navigation"]{
+  position: relative;
+  right: 0;
+  height: 100%;
+  width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+@media (max-width: 767px) {
+.top-navigation-tools {
+  display: flex;
+  margin-right: 0px;
+  height: 100%;
+}
+.responsive-tools>a[data-target="search"]{
+  margin: 0;
+  background: transparent;
+  height: 100%;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.responsive-tools>a[data-target="navigation"]::before {
+  color: #fff;
+  background-color: transparent;
+}
+.responsive-tools {
+  padding: 0;
+}
+}
