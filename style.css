@@ -3,7 +3,7 @@
   color: #666666;
 }
 
-body, body * {
+body {
   overflow-x: hidden;
 }
 body, body * {
@@ -370,7 +370,18 @@ input[type="search"].form-control {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 }
-
+@media screen and (max-width: 991px){
+  .products-block {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+}
+@media screen and (max-width: 575px){
+  .products-block {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
 .products-block>div.product {
   width: auto;
   flex: none;
