@@ -472,7 +472,7 @@ input[type="search"].form-control {
 }
 
 .flags-extra {
-  bottom: none;
+  bottom: auto;
   top: -20px;
 }
 
@@ -1623,4 +1623,17 @@ background: green;
 color: white;
 border: 0;
 margin: 0;
+}
+
+.favoriteCategories{
+
+}
+.favoriteCategories__grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
+}
+.favoriteCategories__single{
+  background: white;
+  padding: 30px 20px;
 }
