@@ -342,7 +342,7 @@ body {
 }
 
 input[type="search"].form-control {
-  height: 54px;
+  height: 48px;
   font-size: 16px;
   padding: 0 20px;
   color: #192E3A;
@@ -1191,4 +1191,22 @@ footer {
 .homepage-box.before-carousel .container{
   max-width: 1920px;
   padding: 0;
+}
+.top-navigation-bar .top-navigation-tools{
+  display: none;
+}
+.top-navigation-tools{
+  display: flex;
+  margin-right: 20px;
+  height: 100%;
+}
+.navigation-buttons a[data-target="login"]{
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.1);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0 25px;
 }
