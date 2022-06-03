@@ -190,7 +190,15 @@ h4.homepage-group-title, .h4.homepage-group-title{
     position: relative;
     left: 0;
   }
-
+  #header .site-name>a{
+    height: 100%;
+    margin-left: 15px;
+  }
+  #header .site-name a img{
+    max-width: 100%;
+    padding: 0;
+    max-height: 100%;
+  }
   #header .navigation-wrapper {
     margin: 0;
     width: 100%;
