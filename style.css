@@ -7,7 +7,12 @@ body {
   overflow-x: hidden;
 	font-family: "Cerebri Sans",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
 }
-
+.external-fonts-loaded h1, .external-fonts-loaded h2, .external-fonts-loaded h3, .external-fonts-loaded h4, .external-fonts-loaded h5, .external-fonts-loaded h6, .external-fonts-loaded .h1, .external-fonts-loaded .h2, .external-fonts-loaded .h3, .external-fonts-loaded .h4, .external-fonts-loaded .h5, .external-fonts-loaded .h6, .external-fonts-loaded .cart-table .main-link, .external-fonts-loaded .cart-related-name, .blank-mode h1, .blank-mode h2, .blank-mode h3, .blank-mode h4, .blank-mode h5, .blank-mode h6, .blank-mode .h1, .blank-mode .h2, .blank-mode .h3, .blank-mode .h4, .blank-mode .h5, .blank-mode .h6, .blank-mode .cart-table .main-link, .blank-mode .cart-related-name{
+  font-family: "Cerebri Sans",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+}
+.external-fonts-loaded body, body.blank-mode{
+  font-family: "Cerebri Sans",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+}
 @media (min-width: 768px) {
   .menu-helper {
     background-color: transparent;
