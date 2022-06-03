@@ -746,7 +746,7 @@ h4.homepage-group-title, .h4.homepage-group-title {
 }
 .p-info-wrapper .p-final-price-wrapper .price-final-holder{
   font-size: 28px;
-  font-family: "Signika";
+  font-family: "Signika" !important;
 }
 
 .p-info-wrapper .availability-value {
@@ -893,7 +893,7 @@ h4.homepage-group-title, .h4.homepage-group-title {
 .p-info-wrapper .p-detail-inner-header h1 {
   display: flex;
   margin-top: 0;
-  font-family: 'Signika';
+  font-family: 'Signika' !important;
 font-style: normal;
 font-weight: 500;
 font-size: 34px;
@@ -929,7 +929,8 @@ line-height: 44px;
   text-align: center;
   font-size: 34px;
   font-weight: 500;
-
+  font-family: "Signika";
+  color: #192E3A;
 }
 
 .shp-tabs-wrapper .description-inner .basic-description {
@@ -943,6 +944,10 @@ line-height: 44px;
 
 .shp-tabs-wrapper .description-inner .basic-description h3 {
   margin-top: 0;
+  font-family: "Signika";
+  color: #192E3A;
+  font-weight: 500;
+  font-size: 34px;
 }
 
 .shp-tabs-wrapper .description-inner .basic-description p {
