@@ -1179,3 +1179,10 @@ footer {
 .back-shopping-link{
   display: none;
 }
+
+.products-block .p-bottom .p-tools .pr-action{
+  display: flex;
+}
+.products-block .p-bottom .p-desc ~ p{
+  display: none;
+}
