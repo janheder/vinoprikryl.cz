@@ -95,7 +95,9 @@ h4.homepage-group-title, .h4.homepage-group-title{
 .top-navigation-menu, .top-navigation-contacts {
   background: transparent;
 }
-
+.top-navigation-menu{
+  margin-right: -10px;
+}
 .top-navigation-bar-menu li a, .top-navigation-bar-menu-helper li a, .top-navigation-bar a, .top-navigation-bar .dropdown button {
   color: white;
   padding: 4px 10px;
@@ -1206,7 +1208,9 @@ footer {
   color: #2C8F35;
   font-size: 15px;
 }
-
+.products-block .p-bottom .p-tools .pr-action .btn.btn-cart::before{
+  background-image: url("https://janheder.github.io/vinoprikryl.cz/icons/cart-green.svg");
+}
 .products-block .p-bottom .p-desc ~ *{
   display: none;
 }
@@ -1233,6 +1237,17 @@ footer {
     border-radius: 4px;
     padding: 0 25px;
 }
+@media (max-width: 767px) {
+  .navigation-buttons a[data-target="login"]{
+  display: none;
+  }
+}
+
+
+  .user-action-cart .cart-free-shipping {
+    margin: 0px;
+    margin-top: 20px;
+  }
 
 .top-navigation-contacts a:first-of-type {
   padding-left: 0;
@@ -1240,4 +1255,5 @@ footer {
 
 .header-top{
   display: flex;
+  height: 100%;
 }
