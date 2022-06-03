@@ -1170,7 +1170,7 @@ footer {
   margin-left: 10px;
   background: white;
   border: 0;
-  background-image: url("../icons/close.svg");
+  background-image: url("icons/close.svg");
   background-repeat: no-repeat;
   background-size: 18px;
   background-position: center center;
@@ -1389,6 +1389,11 @@ footer {
 
 .siteCookies__form{
 display: flex;
+padding: 0;
+    background: white;
+    box-shadow: none;
+    width: 100%;
+    max-width: 100%;
 }
 .siteCookies__content {
   align-items: center;	
@@ -1402,7 +1407,7 @@ content: "";
   flex-shrink: 0;
   margin-right: 15px;
   background-color: white;
-  background-image: url("../icons/cookie.svg");
+  background-image: url("icons/cookie.svg");
   background-repeat: no-repeat;
   background-size: 32px;
   border-radius: 50%;
@@ -1450,6 +1455,7 @@ background: #408b46;
 display: flex;
   align-items: center;
 justify-content: center;
+gap: 0;
 }
 
 
