@@ -44,13 +44,13 @@ h4.homepage-group-title, .h4.homepage-group-title{
   width: 100%;
   margin: 0 auto;
 }
-@media (min-width: 991px) {
+@media (max-width: 991px) {
   .container {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
 }
-@media (min-width: 575px) {
+@media (max-width: 575px) {
   .container {
     padding-right: 10px !important;
     padding-left: 10px !important;
@@ -224,7 +224,7 @@ h4.homepage-group-title, .h4.homepage-group-title{
     margin: 0;
     width: 100%;
     height: 100%;
-    padding: 0;
+    padding: 0 !important;
   }
 
   #header .navigation-buttons {
@@ -235,7 +235,7 @@ h4.homepage-group-title, .h4.homepage-group-title{
   #header .cart-count {
     top: 0;
     display: flex;
-    width: 56px;
+    width: 50px;
     margin: 0;
     height: 100%;
     position: relative;
@@ -1333,7 +1333,10 @@ footer {
 .visible-lg-inline-block {
   display: inline-block !important;
 }
-
+@media (max-width: 767px) {
+  .visible-lg-inline-block {
+  display: none !important;
+}}
 .responsive-tools>a[data-target="navigation"]{
   position: relative;
   right: 0;
@@ -1426,6 +1429,7 @@ text-decoration: underline;
 .siteCookies__links{
 margin: 0;
 display: flex;
+width: auto;
 }
 .siteCookies__link, .siteCookies__button{
   color: gray;
