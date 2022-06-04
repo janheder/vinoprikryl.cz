@@ -1759,7 +1759,7 @@ margin: 0;
 
 
 .custom-footer__newsletter.extended{
-  width: 100%;
+  width: 100% !important;
 }
 @media (min-width: 1200px){
   .custom-footer__newsletter.extended{
@@ -1783,4 +1783,24 @@ margin: 0;
   position: absolute;
   right: 20px;
   top: 50%;
+}
+
+.availability-label{
+  display: flex;
+    padding-right: 5px;
+    line-height: 1;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.availability-label::before {
+  content: "";
+  display: flex;
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+  background-image: url("icons/check-circle-green.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
 }
