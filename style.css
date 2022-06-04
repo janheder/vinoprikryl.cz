@@ -51,6 +51,20 @@ a, .link-like {
 .ordering-process #content-wrapper{
   padding-top: 0;
 }
+@media (max-width: 767px){
+  #content-wrapper {
+    padding-top: 20px;
+}
+}
+
+@media (max-width: 767px){
+  .content-wrapper.container .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+}
+
 
 .container {
   max-width: 1460px;
@@ -93,7 +107,7 @@ a, .link-like {
 }
 
 .product-top {
-  margin-bottom: 38px;
+  margin-bottom: 0px;
   display: flex;
 }
 
@@ -750,10 +764,6 @@ h4.homepage-group-title, .h4.homepage-group-title, .favoriteCategories__title {
 }
 
 
-.product-top {
-  margin-bottom: 60px;
-  display: flex;
-}
 
 .p-image-wrapper {
   background: transparent;
@@ -771,6 +781,11 @@ h4.homepage-group-title, .h4.homepage-group-title, .favoriteCategories__title {
 
 #cloud-zoom-big {
   display: none !important;
+}
+@media (max-width: 767px){
+  .content-wrapper.container .row>div {
+    margin-bottom: 40px;
+}
 }
 
 .p-info-wrapper {
@@ -973,8 +988,9 @@ color: #192E3A;
   text-align: center;
   font-size: 34px;
   font-weight: 500;
-  font-family: "Signika";
+  font-family: "Signika" !important;
   color: #192E3A;
+
 }
 
 .shp-tabs-wrapper .description-inner .basic-description {
@@ -988,7 +1004,7 @@ color: #192E3A;
 
 .shp-tabs-wrapper .description-inner .basic-description h3 {
   margin-top: 0;
-  font-family: "Signika";
+  font-family: "Signika" !important;
   color: #192E3A;
   font-weight: 500;
   font-size: 34px;
@@ -996,7 +1012,7 @@ color: #192E3A;
 
 .shp-tabs-wrapper .description-inner .basic-description p {
   text-align: center;
-
+font-size: 16px;
 }
 
 .shp-tabs-wrapper .description-inner .extended-description {
@@ -1012,6 +1028,7 @@ color: #192E3A;
   width: 700px;
   max-width: 100%;
   margin: 0 auto;
+
 }
 .shp-tabs-wrapper .description-inner .extended-description .detail-parameters tbody{
   width: 100%;
@@ -1029,7 +1046,9 @@ color: #192E3A;
 .shp-tabs-wrapper .description-inner .extended-description .detail-parameters tr:nth-child(even){ 
   background: #F9FAFB;
 }
-
+.tab-content .detail-parameters td{
+  font-weight: 500;
+}
 
 
 footer {
