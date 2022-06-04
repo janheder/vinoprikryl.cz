@@ -444,6 +444,7 @@ input[type="search"].form-control {
   border-radius: 4px;
   background-color: #fff;
   padding: 20px;
+  padding-bottom: 40px;
   transition: 0.3s ease box-shadow;
   min-width: 0
 }
@@ -545,7 +546,7 @@ input[type="search"].form-control {
   font-weight: 500;
   line-height: 1.5;
   height: 23px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
