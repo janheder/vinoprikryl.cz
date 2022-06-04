@@ -494,9 +494,13 @@ input[type="search"].form-control {
     background-image: url("https://janheder.github.io/vinoprikryl.cz/img/flag-discount.svg");
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
 }
 .flags-extra .flag .price-standard, .flags-extra .flag .price-save{
-  font-size: 18px;
+  font-size: 17px;
+  margin-top: -8px;
 }
 .flag.flag-discount .price-standard{
   display: none;
@@ -1711,7 +1715,7 @@ margin: 0;
 
 .menu-level-1>li.ext>a {
   position: relative;
-  padding: 0 43px 0 20px;
+  padding: 0 43px 0 20px !important;
 }
 .menu-level-1>li.ext>a::before {
   content: "";
@@ -1720,8 +1724,8 @@ margin: 0;
   background-image: url("icons/arrow-left-white.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
-  transform: translateY(-50%) rotate(270deg);
+  background-size: contain;
+  transform: translateY(-50%) rotate(90deg);
   position: absolute;
   right: 20px;
   top: 50%;
