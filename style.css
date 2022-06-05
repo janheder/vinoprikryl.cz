@@ -1436,6 +1436,12 @@ footer {
   margin-right: 0px;
   height: 100%;
 }
+.ordering-process .navigation-buttons{
+  display: none;
+}
+.ordering-process .header-top > div:first-child{
+  width: 100%;
+}
 .responsive-tools>a[data-target="search"]{
   margin: 0;
   background: transparent;
