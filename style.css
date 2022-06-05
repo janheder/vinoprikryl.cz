@@ -1099,7 +1099,12 @@ footer {
   font-size: 10px;
 }
 
-
+@media (max-width: 767px){
+.navigation-buttons>a[data-target="cart"] i {
+  bottom: 12px;
+  left: 25px;
+}
+}
 
 
 @media screen and (min-width: 992px) {
