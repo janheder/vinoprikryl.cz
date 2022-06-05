@@ -15,3 +15,8 @@ $(".p .p-tools form").prepend('<span class="quantity"><input type="text" value="
 
 
 $(".navigation-buttons").prepend($(".top-navigation-tools"));
+
+
+if ($(".cart-header").length){
+    $(".cart-header").insertBefore("#checkoutContent");
+}
