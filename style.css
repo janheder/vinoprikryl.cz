@@ -230,7 +230,7 @@ a, .link-like {
 }
 
 @media (max-width: 767px) {
-  .type-index .overall-wrapper {
+  .overall-wrapper {
     padding-top: 56px;
 }
   .top-navigation-bar {
@@ -312,6 +312,7 @@ a, .link-like {
     padding: 0 30px;
     background: #B71F39;
     height: 100%;
+    margin: 0;
   }
   .header-top{
     height: auto;
