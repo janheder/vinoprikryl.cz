@@ -230,7 +230,7 @@ a, .link-like {
 }
 
 @media (max-width: 767px) {
-  .overall-wrapper {
+  .overall-wrapper, .ordering-process .overall-wrapper{
     padding-top: 56px;
 }
   .top-navigation-bar {
@@ -1479,6 +1479,19 @@ footer {
 .responsive-tools {
   padding: 0;
 }
+.search-window-visible #header .search {
+  display: block;
+  padding: 14px 0 19px;
+  padding: 0;
+  position: fixed;
+  top: 56px;
+  z-index: 99;
+  background: #652057;
+  padding: 0 8px 8px 8px;
+}
+
+
+
 }
 .p-info-wrapper .p-short-description + p a{
   color: #192E3A;
@@ -1931,4 +1944,5 @@ display: none;
   width: 50px;
   height: 56px;
   padding: 0;
+  position: relative;
 }
