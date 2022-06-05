@@ -607,6 +607,7 @@ input[type="search"].form-control {
   padding: 0 20px;
   font-size: 15px;
   font-weight: 500;
+  display: inline-flex;
 }
 
 .btn.btn-cart::before, a.btn.btn-cart::before, .btn.add-to-cart-button::before, a.btn.add-to-cart-button::before {
@@ -1889,4 +1890,17 @@ display: none;
   font-size: 34px;
   line-height: 44px;
   color: #192E3A;
+}
+
+@media (max-width: 767px){
+  .ordering-process .site-name {
+    display: flex;
+}
+}
+
+
+.ordering-process .responsive-tools>a[data-target="navigation"]{
+  width: 50px;
+  height: 56px;
+  padding: 0;
 }
