@@ -1906,6 +1906,7 @@ ol.cart-header li{
 display: flex;
 width: 100%;
 top: 0;
+z-index: 1;
 }
 ol.cart-header li.active a, ol.cart-header li.active strong{
 border: 0;
@@ -1937,6 +1938,13 @@ display: none;
   .ordering-process .site-name {
     display: flex;
 }
+#checkoutContent{
+  width: 100%;
+  }
+  
+  #checkoutSidebar{
+    width: 100%;
+  }
 }
 
 
