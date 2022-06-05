@@ -448,6 +448,7 @@ input[type="search"].form-control {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
+  margin-bottom: 40px;
 }
 @media screen and (max-width: 991px){
   .products-block {
@@ -650,7 +651,7 @@ input[type="search"].form-control {
 }
 
 h4.homepage-group-title, .h4.homepage-group-title, .favoriteCategories__title {
-  margin-top: 80px;
+  margin-top: 0px;
   font-size: 38px;
   line-height: 36px;
   text-align: center;
@@ -659,7 +660,14 @@ h4.homepage-group-title, .h4.homepage-group-title, .favoriteCategories__title {
   margin-bottom: 40px;
   font-family: "Signika" !important;
 }
-
+@media screen and (max-width: 575px){
+  h4.homepage-group-title, .h4.homepage-group-title, .favoriteCategories__title {
+    margin-top: 0px;
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 30px;
+  }
+}
 .homepage-box {
   border: 0;
   margin: 0;
@@ -1437,7 +1445,7 @@ footer {
   height: 100%;
 }
 .top-navigation-tools .top-nav-button-account{
-  display: flex;
+  display:  none;
   opacity: 1;
   width: 50px;
   color: white;
