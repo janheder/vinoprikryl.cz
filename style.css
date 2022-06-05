@@ -264,6 +264,7 @@ a, .link-like {
     max-width: 100%;
     padding: 0;
     max-height: 100%;
+    height: 48px;
   }
   #header .navigation-wrapper {
     margin: 0;
@@ -1475,6 +1476,8 @@ footer {
 
 .navigation-buttons .responsive-tools a[data-target="login"]{
   display: flex;
+  border: 0;
+  border-right: 1px solid rgba(255,255,255,0.1);
 }
 .responsive-tools {
   padding: 0;
@@ -1907,9 +1910,15 @@ display: flex;
 width: 100%;
 top: 0;
 z-index: 1;
+padding: 0;
 }
-ol.cart-header li.active a, ol.cart-header li.active strong{
-border: 0;
+
+
+ol.cart-header li a, ol.cart-header li strong {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;border: 0;
 }
 
 #checkoutContent{
@@ -1953,4 +1962,10 @@ display: none;
   height: 56px;
   padding: 0;
   position: relative;
+}
+
+@media (min-width: 992px){
+  .admin-logged .popup-widget.cart-widget {
+    top: 148px;
+}
 }
