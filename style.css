@@ -1119,10 +1119,10 @@ footer {
 }
 
 .p-image-wrapper {
-  width: 55%;
+  width: 100%;
 }
 .p-info-wrapper {
-  width: 45%;
+  width: 100%;
 }
 
 }
