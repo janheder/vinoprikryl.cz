@@ -874,7 +874,7 @@ h4.homepage-group-title, .h4.homepage-group-title, .favoriteCategories__title {
   margin-bottom: 30px;
 }
 
-.p-detail .add-to-cart .quantity {
+.p-detail .add-to-cart .quantity, .cart-table .p-quantity .quantity {
   margin-right: 20px;
   padding: 0px;
   position: relative;
@@ -888,7 +888,7 @@ h4.homepage-group-title, .h4.homepage-group-title, .favoriteCategories__title {
   border-radius: 4px;
 }
 
-.quantity input {
+.quantity input, .cart-table .p-quantity .quantity input {
   order: 1;
   text-align: center;
   height: 100%;
