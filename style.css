@@ -2055,4 +2055,14 @@ display: none;
   .navigation-buttons a[data-target="login"] {
     margin-right: 20px;
 }
+.ordering-process .navigation-buttons a[data-target="login"]{
+  margin: 0;
+}
+}
+
+
+.quantity-form .quantity .increase, .quantity-form .quantity .decrease{
+  width: 38px;
+    height: 100%;
+    top: 0;
 }
