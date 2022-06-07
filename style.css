@@ -1121,15 +1121,19 @@ footer {
   left: 25px;
 }
 
-.p-image-wrapper {
-  width: 100%;
-}
-.p-info-wrapper {
-  width: 100%;
 }
 
-}
 
+
+@media (max-width: 991px){
+  .p-image-wrapper {
+    width: 100%;
+  }
+  .p-info-wrapper {
+    width: 100%;
+  }
+  
+}
 
 @media screen and (min-width: 992px) {
   .user-action-in {
