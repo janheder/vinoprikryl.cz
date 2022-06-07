@@ -55,6 +55,9 @@ a, .link-like {
   #content-wrapper {
     padding-top: 20px;
 }
+.header-top{
+  height: 56px;
+}
 }
 
 @media (max-width: 767px){
