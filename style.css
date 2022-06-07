@@ -55,9 +55,7 @@ a, .link-like {
   #content-wrapper {
     padding-top: 20px;
 }
-.header-top{
-  height: 56px;
-}
+
 }
 
 @media (max-width: 767px){
@@ -1445,7 +1443,16 @@ footer {
 @media (max-width: 767px) {
   .visible-lg-inline-block {
   display: none !important;
-}}
+}
+
+@media (max-width: 767px){
+
+.header-top{
+  height: 56px;
+}
+}
+
+}
 .responsive-tools>a[data-target="navigation"]{
   position: relative;
   right: 0;
