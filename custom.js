@@ -27,3 +27,6 @@ $(".navigation-buttons").prepend($(".top-navigation-tools"));
 if ($(".cart-header").length){
     $(".cart-header").insertBefore("#checkoutContent");
 }
+
+
+$(".hp-blog .news-wrapper").load("/blog/ .news-wrapper .news-item:nth-child(-n+3)");
