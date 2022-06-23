@@ -2447,6 +2447,8 @@ font-size: 20px;
 
 .news-item > .image{
     position: relative;
+    width: 100%;
+    margin: 0;
 }
 .news-item > .image > a{
     height: 260px;
