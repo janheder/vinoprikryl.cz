@@ -30,3 +30,16 @@ if ($(".cart-header").length){
 
 
 $(".hp-blog .news-wrapper").load("/blog/ .news-wrapper .news-item:nth-child(-n+3)");
+
+
+
+
+
+/* add 4. step */
+if ($(".ordering-process").length){
+    $(".cart-header").append('<li class="step step-4"><strong><span>Dokončení objednávky</span></strong></li>');
+    $(".cart-header .step-2 span").text("Doprava a platba");
+    $(".cart-header .step-3 span").text("Osobní údaje");
+
+    $("#add-note").prop("checked", true);
+}

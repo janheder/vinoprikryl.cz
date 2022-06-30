@@ -213,7 +213,7 @@ a, .link-like {
 }
 
 .banners-row {
-  margin: 0 !important;
+  margin: 0 -10px !important;
 }
 
 
@@ -2744,4 +2744,205 @@ ol.cart-header li.completed a:hover {
     top: -7px;
   
 }
+}
+.cart-table tr td {
+  border: none;
+}
+.cart-table tr > td{
+padding: 20px;
+font-size: 15px;
+}
+.cart-table tr > td .price-final{
+font-size: 15px;
+   color: #192E3A;
+}
+.cart-table  .p-total .price-final{
+  margin-right: 30px;
+font-size: 18px;
+color: #B71F39;
+}
+.cart-table tr>td.p-total{
+ position: relative;
+}
+.p-total form{
+position: absolute;
+right: -18px;
+top: calc(50% - 20px);
+background: white;
+border-radius: 50%;
+border: 2px solid #F9FAFB;
+    display: flex;
+}
+body.ordering-process{
+background: #F9FAFB;
+}
+ol.cart-header{
+margin-bottom: 40px;
+}
+.cart-content {
+  background-color: transparent;
+padding: 0;
+}
+@media (min-width: 992px){
+.cart-content+.cart-content {
+  margin-top: 10px;
+
+}
+}
+
+.cart-content .next-step{
+justify-content: space-between;
+margin-top: 30px;
+}
+.cart-table{
+
+}
+.next-step .next-step-back{
+background: white;
+display: inline-flex;
+flex-grow: 0;
+    border-radius: 4px;
+  height: 48px;
+  padding: 0 20px;
+    display: inline-flex;
+    align-items: center;
+  justify-content: center;
+font-size: 15px;
+}
+.cart-table tr{
+border-bottom: 2px solid #F9FAFB;;
+}
+b, strong {
+  font-weight: 500;
+}
+
+.cart-table .p-quantity .quantity{
+height: 48px;
+ max-width: 110px;
+}
+
+
+tr.removeable .remove-item {
+  opacity: 1;
+margin-left: 0px;
+height: 36px;
+width: 36px;
+line-height: 1;
+text-align:center;
+
+}
+.price-wrapper .price.price-primary{
+font-size: 24px;
+}
+ol.cart-header li.active a, ol.cart-header li.active strong{
+color: #192E3A;
+}
+ol.cart-header li a span::before, ol.cart-header li strong span::before{
+font-weight: 500;
+border: 0;
+background: #F9FAFB;
+margin: 0;
+    width: 42px;
+  height: 42px;
+    line-height: 42px;
+margin-right: 10px;
+    color: #192E3A;
+font-size: 16px;
+}
+ol.cart-header li a, ol.cart-header li strong, ol.cart-header li a:hover{
+ color: #192E3A;
+}
+ol.cart-header li.active strong span::before{
+     color: #2C8F35;
+  background: rgba(44, 143, 53, 0.1);
+}
+
+.availability-label{
+font-size: 15px
+}
+.header-top>div.search{
+    max-width: 500px;
+}
+.price-wrapper .price-label{
+font-size: 15px;
+}
+
+.sidebar-in-cart .price-wrapper{
+padding-bottom: 30px;
+margin-bottom: 0;
+border-bottom: 2px solid #E5E5E5;
+}
+.cart-table tr td.p-name a{
+font-size: 16px;
+font-weight: 500;
+ color: #192E3A;
+}
+.cart-table tr td.p-name a:hover{
+   color: #192E3A;
+}
+.btn.next-step-forward::after{
+top: 1px;
+font-size: 10px;
+}
+
+.in-krok-1 #checkoutSidebar .cart-content .order-summary, .in-krok-2 #checkoutSidebar .cart-content{
+background: white;
+padding: 20px;
+}
+.in-krok-1 #checkoutSidebar .order-summary-item.price,
+.in-krok-2 #checkoutSidebar .order-summary-item.price{
+    margin-left: 0px;
+  margin-right: 0px;
+padding: 20px 0 0 0;
+border-top: 2px solid #E5E5E5;
+}
+
+.payment-shipping-price{
+color: #192E3A;
+font-size: 15px;
+}
+.order-delivery-payment-form .radio-wrapper input:checked+label {
+border-radius: 0px;
+  outline: 1px solid gray;
+}
+.order-summary-inner h4{
+font-family: "Signika" !important;
+  text-transform: none;
+  font-size: 22px;
+  color: #192E3A;
+margin-bottom: 0px;
+padding-bottom: 20px;
+border-bottom: 1px solid #E5E5E5;
+}
+.cart-items{
+border-bottom: 1px solid #E5E5E5;
+padding: 15px 0 0 0;
+}
+.cart-item{
+padding:0 0 15px 0;
+}
+.cart-item>div{
+border: 0;
+}
+.co-delivery-method, .co-payment-method{
+padding-top: 0;
+padding-bottom: 60px;
+}
+.radio-wrapper input[type="radio"]+label{
+padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.navigation-buttons a.top-nav-button-login::before{
+  margin-right: 15px;
+    height: 100%;
+    content: "";
+    background: transparent;
+    background-image: url(https://janheder.github.io/vinoprikryl.cz/icons/user-white.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 0;
+    background-size: 100%;
+    width: 18px;
 }
