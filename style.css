@@ -1768,6 +1768,7 @@ margin: 0;
   padding: 30px 20px;
   display: flex !important;
   flex-direction: column;
+  text-align: center;
 }
 .favoriteCategories__single h5{
   margin-top: 15px;
@@ -2639,4 +2640,108 @@ Height:6px;
 }
 .footer-bottom{
   padding-top: 0;
+}
+
+@media (min-width: 992px){
+  .popup-widget.login-widget {
+    top: 130px !important;
+}
+   .popup-widget.login-widget::before{
+      left: 43%;
+    }
+  }
+.btn.btn-secondary, a.btn.btn-secondary{
+  background: rgba(101, 7, 82, 0.1);
+border-radius: 4px;
+color:  #650752;
+  border: 0;
+}
+.login-wrapper .btn-login{
+  background: #2C8F35;
+  color: white;
+}
+.navigation-buttons a[data-target="login"]:hover{
+  background-color: rgba(255,255,255,0.2);
+}
+
+.radio-wrapper input[type="radio"]+label{
+  padding-left: 45px;
+  padding-top: 18px;
+    padding-bottom: 18px;
+  background: white;
+  outline: none;
+  border: 0;
+  border-radius: 4px;
+}
+.order-delivery-payment-form .radio-wrapper label::before{
+  height: 20px;
+    width: 20px;
+  left: 10px;
+  border-color: transparent;
+}
+.order-delivery-payment-form .radio-wrapper label::after{
+    width: 14px;
+    height: 14px;
+  left: 13px;
+  background: transparent !important;
+}
+input[type="checkbox"]:checked+label::after, input[type="radio"]:checked+label::after{
+  width: 14px;
+    height: 14px;
+  left: 13px;
+  background: #2C8F35 !important;
+}
+.shipping-billing-table{
+  grid-gap: 5px;
+}
+.not-possible-info, .payment-info .sublabel{
+  margin-top: 5px;
+      line-height: 1.3;
+  font-size: 13px;
+}
+.radio-wrapper.active .for-free{
+  color: #2C8F35;
+}
+.order-delivery-payment-form .radio-wrapper {
+    border: 0;
+}
+.radio-wrapper.active label > span b{
+    color: #2C8F35;
+}
+ol.cart-header li a, ol.cart-header li strong{
+  height: 120px;
+  padding: 20px;
+  line-height: 1;
+   text-transform: none;
+  font-size: 16px;
+}
+ol.cart-header li.active a, ol.cart-header li.active strong{
+  text-transform: none;
+  color: #2C8F35;
+}
+h4.order-delivery, h4.order-payment{
+  font-family: "Signika" !important;
+  text-transform: none;
+  font-size: 24px;
+  color: #192E3A;
+}
+.co-delivery-method, .co-payment-method{
+  border: 0;
+  padding-bottom: 20px;
+}
+.recapitulation-single > strong span{
+    color: #2C8F35;
+}
+ol.cart-header li.completed a:hover {
+        color: #2C8F35;
+}
+
+.form-control{
+  height: 46px;
+}
+@media (min-width: 992px){
+  .admin-logged .popup-widget.cart-widget::before {
+    top: -7px;
+  
+}
 }
