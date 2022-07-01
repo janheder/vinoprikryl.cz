@@ -3458,3 +3458,24 @@ flex-direction: row;
 .newsletterSection__form .consents-first{
 margin-top: 0;
 }
+.login-widget .popup-widget-inner{
+  padding-bottom: 0;
+}
+
+.login-widget .popup-widget-inner h2{
+  margin-top: 20px;
+    font-size:26px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 400;
+    color: #192E3A;
+    margin-bottom: 20px;
+    font-family: "Signika" !important;
+}
+.box.box-bg-default.co-box.co-delivery-method,
+.box.box-bg-default.co-box.co-payment-method{
+  background: transparent;
+}
+.in-krok-1 .box.co-box h4, .in-krok-1 .co-box h4{
+  border: 0
+}
