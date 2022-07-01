@@ -7,7 +7,7 @@ $(".p-detail-info .flags").insertBefore(".p-final-price-wrapper");
 
 $(".p-detail-inner-header").insertBefore(".p-final-price-wrapper");
 
-$(".p-detail-info .stars-wrapper").insertBefore(".p-final-price-wrapper");
+$(".p-detail-info .stars-wrapper").insertBefore(".p-detail-inner-header .p-code");
 
 
 
@@ -43,3 +43,6 @@ if ($(".ordering-process").length){
 
     $("#add-note").prop("checked", true);
 }
+
+
+
