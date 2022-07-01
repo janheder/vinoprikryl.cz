@@ -2946,3 +2946,175 @@ padding-top: 20px;
     background-size: 100%;
     width: 18px;
 }
+
+.benefitBanner {
+  padding: 40px 0;
+margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+.type-product .benefitBanner {
+  border-bottom: 1px solid #F0F0F0;
+border-top: 1px solid #F0F0F0;
+}
+.benefitBanner__item, .benefitBanner__data {
+  display: flex;
+  align-items: center;
+flex-basis: 100%;
+width: 100%
+}
+.benefitBanner__content {
+  padding-left: 0px;
+}
+.benefitBanner__text {
+  padding-left: 20px;
+font-size: 15px;
+}
+.homepage-box.before-carousel{
+margin-bottom :0
+}
+.shp-tabs-wrapper{
+padding-top: 0;
+}
+#footer .contact-box a:hover, #footer .password-helper a:hover, #footer .news-item-widget a:hover, #footer ul a:hover {
+  color: #652057;
+}
+#footer>.container{
+font-size: 15px;
+}
+.form-control, select {
+  border-color: #EEEEEE;
+background: #fff;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color:#6E6E6E;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:#6E6E6E;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color:#6E6E6E;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color:#6E6E6E;
+}
+.p-image-wrapper .p-image{
+padding-top: 20px;
+}
+.product-top{
+padding-bottom: 60px;
+}
+.category-header div{
+font-size: 14px;
+padding-right: 0;
+color: #6E6E6E;
+}
+.category-header input[type="radio"]+label{
+padding: 10px 0;
+margin-right: 30px;
+color: #6E6E6E;
+}
+.category-header input[type="radio"]+label:hover{
+background: transparent;
+color: #192E3A;
+}
+
+@media (min-width: 768px){
+.navigation-in>ul>li.ext>ul>li>div>a {
+  padding: 0 0 5px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #192E3A;
+}
+}
+.products-block.products .p .name{
+text-transform: uppercase;
+}
+.box.box-bg-default {
+  background: white;
+}
+.co-contact-information, .co-billing-address, .co-box-additional, .co-shipping-address{
+background: white;
+border: none;
+margin-bottom: 20px;
+padding: 50px 40px;
+}
+.co-shipping-address{
+margin-left: 0px;
+margin-top: -15px;
+}
+.co-box.co-billing-address h4::before, .co-box.co-shipping-address h4::before{
+content: none;
+}
+.btn, a.btn {
+  height: 50px;
+
+}
+input[type="checkbox"]:checked+label::before, input[type="radio"]:checked+label::before{
+border-color: #192E3A;
+}
+.order-summary-item + .cart-items{
+border: 0;
+}
+input[type="checkbox"]:checked+label::after, input[type="radio"]:checked+label::after{
+left: 0;
+}
+.box.co-box h4, .co-box h4{
+padding: 0;
+margin: 0;
+ font-family: "Signika" !important;
+  text-transform: none;
+  font-size: 22px;
+  color: #192E3A;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+margin-bottom: 30px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.form-group label[for="another-shipping"],
+.form-group label[for="company-shopping"],
+.form-group label[for="add-note"],
+.form-group label[for="set-registration"]
+{
+height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+padding-left: 25px;
+margin-bottom: 10px; 
+margin-right: 0;
+}
+.form-group label[for="another-shipping"]{
+margin-bottom: -20px;
+}
+.form-group label[for="add-note"],
+.form-group label[for="set-registration"]{
+margin: 0;
+height: 36px;
+ margin-bottom: -20px;
+}
+.btn.btn-secondary:hover, a.btn.btn-secondary:hover{
+background: #650752;;
+}
+.form-group label{
+font-size: 15px;
+}
+.co-box.co-box-additional{
+background: transparent;
+padding: 0px !important;
+}
+
+@media (min-width: 1200px){
+.id--4 .content-inner {
+  max-width: 620px;
+  padding: 40px;
+  background: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+border-radius: 4px;
+margin-bottom: 20px;
+}
+}
+
+
