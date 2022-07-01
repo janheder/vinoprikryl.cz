@@ -1066,7 +1066,7 @@ font-size: 16px;
     flex-grow: 1;
 }
 .shp-tabs-wrapper .description-inner .extended-description .detail-parameters th, .shp-tabs-wrapper .description-inner .extended-description .detail-parameters td {
-  padding: 8px 20px;
+  padding: 11px 20px;
   font-size: 16px;
   flex-basis: 100%;
 }
@@ -3242,7 +3242,7 @@ margin-top: 0px;
     top: 0px;
   right: 40px;
 }
-.flags-extra .flag .price-standard, .flags-extra .flag .price-save{
+.type-detail .flags-extra .flag .price-standard, .type-detail .flags-extra .flag .price-save{
     font-size: 18px !important;
 }
 
