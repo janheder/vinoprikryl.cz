@@ -2503,7 +2503,7 @@ font-size: 20px;
     height: 260px;
     display: flex;
     overflow: hidden;
-    background: #192E3A;
+    background: #652057;
  
 }
 .news-item > .image > a > img{
@@ -2528,6 +2528,9 @@ font-size: 20px;
     order: 0;
     margin: 0;
     line-height: 1.5;
+}
+.news-item .text .title:hover {
+  text-decoration: none;
 }
 .news-item time{
     font-size: 13px;
@@ -3586,4 +3589,10 @@ ol.cart-header li a span::before, ol.cart-header li strong span::before{
     max-width: 900px;
     padding: 60px;
   }
+}
+
+@media (max-width: 767px){
+  .banner {
+    min-height: 0;
+}
 }
