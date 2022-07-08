@@ -3575,3 +3575,15 @@ ol.cart-header li a span::before, ol.cart-header li strong span::before{
 .latest-contribution-box{
   display: none;
 }
+
+.one-column-body .content-inner {
+  background: white;
+}
+@media (min-width: 1200px){
+  .one-column-body .content-inner {
+      margin: auto;
+    background: white;
+    max-width: 900px;
+    padding: 60px;
+  }
+}
