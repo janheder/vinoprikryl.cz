@@ -2006,7 +2006,7 @@ display: none;
   color: #192E3A;
 }
 
-@media (max-width: 767px){
+@media (max-width: 991px){
   .ordering-process .site-name {
     display: flex;
 }
@@ -2145,6 +2145,13 @@ display: none;
       padding-bottom: 40px;
     padding-left: 0;
   }
+  @media (max-width: 767px){
+  
+    .co-delivery-method, .co-payment-method{
+ 
+    padding-right: 0;
+  }
+    }
   .box.co-box h4::before, .co-box h4::before{
     content: none;
   }
@@ -2281,6 +2288,9 @@ display: none;
       justify-content: center;
   }
   
+
+
+
   /* CHECKED */
   .order-delivery-payment-form .radio-wrapper input:checked+label::before {
       border: 2px solid green;
@@ -2293,6 +2303,8 @@ display: none;
       outline: 2px solid gray;
       z-index: 2;
   }
+
+
   /* ---- */
   
   
@@ -3535,4 +3547,19 @@ margin-top: 0;
   text-decoration: none;
   border: 0;
   color: white;
+}
+
+
+@media (max-width: 991px){
+ol.cart-header li a span, ol.cart-header li strong span{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  text-align:center;
+}
+ol.cart-header li a span::before, ol.cart-header li strong span::before{
+  margin: 0;
+  margin-bottom: 10px;
+}
 }
