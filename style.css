@@ -2414,7 +2414,7 @@ display: none;
 }
 .newsletterSection__formGroup .newsletterSection__btn{
     white-space: nowrap;
-    border: 1px solid white;
+    border: 0;
   background: transparent;
 }
 .newsletterSection__consent{
@@ -2503,7 +2503,7 @@ font-size: 20px;
     height: 260px;
     display: flex;
     overflow: hidden;
-    background: black;
+    background: #192E3A;
  
 }
 .news-item > .image > a > img{
@@ -2522,7 +2522,7 @@ font-size: 20px;
 .news-item .text .title{
     font-size: 18px;
     font-weight: 500;
-    color: black;
+    color: #192E3A;
     padding: 10px 0;
     padding-bottom: 5px;
     order: 0;
