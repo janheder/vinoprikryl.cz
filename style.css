@@ -1821,7 +1821,15 @@ margin: 0;
     grid-template-columns: 1fr 1fr;
   }
 }
-
+@media (max-width: 400px){
+  .favoriteCategories__grid{
+    grid-template-columns: 1fr;
+  }
+  .favoriteCategories__single{
+    padding: 20px;
+    height: 100px;
+  }
+}
 
 .category-header{
   background: transparent;
