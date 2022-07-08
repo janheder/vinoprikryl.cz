@@ -2674,6 +2674,7 @@ border-radius:  4px;
 }
 #footer h4{
   padding-bottom: 0px;
+  margin-bottom: 30px;
 }
 #footer h4::after{
   content: "";
@@ -3562,4 +3563,12 @@ ol.cart-header li a span::before, ol.cart-header li strong span::before{
   margin: 0;
   margin-bottom: 10px;
 }
+}
+
+.homepage-about img{
+  margin-bottom: 40px;
+}
+
+.latest-contribution-box{
+  display: none;
 }
