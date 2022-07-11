@@ -1819,6 +1819,7 @@ margin: 0;
 @media (max-width: 575px){
   .favoriteCategories__grid{
     grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
   }
 }
 @media (max-width: 400px){
@@ -3630,4 +3631,96 @@ ol.cart-header li a span::before, ol.cart-header li strong span::before{
   .banner {
     min-height: 0;
 }
+}
+
+
+@media screen and (max-width: 991px){
+  .benefitBanner{
+      grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 575px){
+  .benefitBanner{
+      padding: 30px 0;
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+  }
+  .benefitBanner__item img{
+      height: 44px;
+  }
+  .benefitBanner__text {
+      padding-left: 10px;
+      font-size: 14px;
+  }
+}
+
+.cart-inner.cart-empty{
+padding: 160px 0;
+}
+.cart-inner.cart-empty h1{
+text-align:center;
+font-size: 32px;
+margin: 0;
+    font-weight: 400;
+  color: #192E3A;
+  margin-bottom: 60px;
+  font-family: "Signika" !important;
+font-size: 38px;
+  line-height: 36px;
+}
+.cart-inner.cart-empty h1::before{
+content: "";
+height: 80px;
+width: 80px;
+}
+.cart-inner.cart-empty .col-md-4{
+display: none;
+}
+.cart-inner.cart-empty .empty-cart-boxes .col-md-6{
+width: 100%;
+}
+.cart-inner.cart-empty .empty-cart-boxes h3{
+text-align:center;
+    color: #192E3A;
+margin-bottom: 30px;
+}
+.cart-inner.cart-empty .empty-cart-boxes ul{
+list-style: none;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 20px;
+padding: 0;
+}
+.cart-inner.cart-empty .empty-cart-boxes ul li{
+display: flex;
+}
+.cart-inner.cart-empty .empty-cart-boxes ul li a{
+  background: white;
+ padding: 18px 20px;
+width: 100%;
+font-size: 16px;
+border-radius: 5px;
+}
+.cart-inner.cart-empty .empty-cart-boxes ul li a:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+.cart-inner.cart-empty .empty-cart-boxes .col-md-6:last-child{
+display: none;
+}
+.subcategories.with-image li a .image img {
+  max-height: 46px;
+}
+.pagination-top strong{
+    color: #192E3A;
+}
+a, .link-like {
+  color: #192E3A;
+}
+.pagination-link:hover {
+  color: #fff;
+  background-color:#192E3A;
+}
+.pagination-link {
+  color: #666;
+  background-color: #fff;
 }
