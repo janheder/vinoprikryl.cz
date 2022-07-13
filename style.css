@@ -2627,7 +2627,7 @@ font-size: 20px;
 .hp-blog-bottom{
     text-align: center;
     display: flex;
-    padding-top: 20px;
+    padding-top: 40px;
     justify-content: center;
     width: 100%;
 }
@@ -2712,7 +2712,10 @@ Height:6px;
     top: 130px !important;
 }
    .popup-widget.login-widget::before{
-      left: 43%;
+      left: 32%;
+    }
+    .ordering-process .popup-widget.login-widget::before{
+      left: 80%;
     }
   }
 .btn.btn-secondary, a.btn.btn-secondary{
@@ -3657,7 +3660,7 @@ ol.cart-header li a span::before, ol.cart-header li strong span::before{
 .cart-inner.cart-empty{
 padding: 160px 0;
 }
-.cart-inner.cart-empty h1{
+.cart-inner.cart-empty .h1{
 text-align:center;
 font-size: 32px;
 margin: 0;
@@ -3667,11 +3670,18 @@ margin: 0;
   font-family: "Signika" !important;
 font-size: 38px;
   line-height: 36px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
-.cart-inner.cart-empty h1::before{
+.cart-inner.cart-empty .h1::before{
 content: "";
 height: 80px;
 width: 80px;
+display: flex;
+margin-bottom: 30px;
 }
 .cart-inner.cart-empty .col-md-4{
 display: none;
