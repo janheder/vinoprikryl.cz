@@ -301,7 +301,7 @@ a, .link-like {
 @media (min-width: 768px) {
 
   #header .navigation-buttons {
-    height: 54px;
+    height: 50px;
     padding: 0;
     flex-wrap: nowrap;
   }
@@ -312,7 +312,7 @@ a, .link-like {
     justify-content: flex-end;
     width: auto;
     color: white;
-    padding: 0 30px;
+    padding: 0 25px;
     background: #B71F39;
     height: 100%;
     margin: 0;
@@ -1435,7 +1435,7 @@ footer {
 
 .header-top{
   display: flex;
-  height: 100px;
+  height: 80px;
 }
 
 .visible-lg-inline-block {
