@@ -3861,3 +3861,47 @@ table.table.border thead > tr > th, table.table.border tbody > tr > td{
   margin-bottom: 40px;
   font-family: "Signika" !important;
 }
+
+
+.products-block .ratings-wrapper .availability{
+  display: flex;
+  align-items:center;
+}
+.products-block .ratings-wrapper .availability::before{
+  content: "";
+    display: flex;
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+    background-image: url("https://janheder.github.io/vinoprikryl.cz/icons/check-circle-green.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.pagination, .pagination-loader, .pagination-top{
+  min-width: 0;
+}
+.filter-sections{
+background-color: #fff;
+}
+#category-filter-hover .filter-section:first-child, .filter-section+.filter-section{
+  border: none;
+}
+.filter-section{
+  background: #f9fafb;
+  margin-top: 10px;
+  padding: 20px;
+}
+.filter-sections {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.filter-count{
+  font-weight: 400;
+}
+.filter-section-count{
+  background: transparent;
+  padding: 0;
+  padding-top: 10px;
+}
