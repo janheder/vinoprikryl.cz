@@ -3831,7 +3831,7 @@ a, .link-like {
   height: 28px;
 
 }
-.sidebar-inner li.active{
+.sidebar-inner li:first-child{
   padding-bottom: 10px;
   border-bottom: 1px solid #ededed;
   margin-bottom: 10px;
@@ -3861,7 +3861,14 @@ table.table.border thead > tr > th, table.table.border tbody > tr > td{
   margin-bottom: 40px;
   font-family: "Signika" !important;
 }
-
+.customer-page .content-inner{
+  margin: 0;
+  max-width: 100%;
+  margin-left: 60px;
+}
+.client-link{
+  margin-bottom: 20px;
+}
 
 .products-block .ratings-wrapper .availability{
   display: flex;
