@@ -3915,3 +3915,23 @@ background-color: #fff;
   padding: 0;
   padding-top: 10px;
 }
+
+.price-wrapper .price-label.price-primary{
+  font-size: 18px;
+}
+.order-delivery-payment-form .radio-wrapper input:checked+label {
+    border-radius: 3px;
+    outline: 1px solid #236e2a;
+}
+
+.content-inner{
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.content-inner li{
+    padding-bottom: 20px;
+}
+.content-inner ol ol{
+  margin-top: 20px;
+}
