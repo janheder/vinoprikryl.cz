@@ -626,7 +626,15 @@ input[type="search"].form-control {
   background-image: url("https://janheder.github.io/vinoprikryl.cz/icons/cart-white.svg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
   margin-right: 15px;
+}
+.products-block .p-bottom .p-tools .pr-action .btn.btn-cart:hover{
+  color: white;
+  background:#2C8F35;
+}
+.products-block .p-bottom .p-tools .pr-action .btn.btn-cart:hover::before{ 
+  background:url("https://janheder.github.io/vinoprikryl.cz/icons/cart-white.svg");
 }
 @media screen and (max-width: 575px){
   .products-block .p-bottom .prices{
