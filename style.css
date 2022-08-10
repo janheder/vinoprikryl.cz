@@ -3943,3 +3943,16 @@ background-color: #fff;
 .content-inner ol ol{
   margin-top: 20px;
 }
+
+
+
+.filters-unveil-button-wrapper .unveil-button::after{
+  content: "";
+  background: url("https://janheder.github.io/vinoprikryl.cz/icons/filter-white.svg");
+  height: 14px;
+    width: 14px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 20px;
+}
