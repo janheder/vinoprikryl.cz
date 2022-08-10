@@ -664,7 +664,7 @@ input[type="search"].form-control {
   padding-bottom: 100px;
 }
 
-h4.homepage-group-title, .h4.homepage-group-title, .favoriteCategories__title {
+.external-fonts-loaded h4.homepage-group-title, .external-fonts-loaded .h4.homepage-group-title, .external-fonts-loaded .favoriteCategories__title {
   margin-top: 0px;
   font-size: 38px;
   line-height: 36px;
@@ -3970,4 +3970,25 @@ background-color: #fff;
 .flag.flag-new {
   color: #2C8F35;
   background-color: #EAF4EB;
+}
+
+.flag.flag-tip{
+  font-size: 0;
+  background: transparent;
+  padding: 0;
+}
+.flag.flag-tip::before{
+  content: "Doporučujeme";
+  display: inline-flex;
+  font-size: 13px;
+    background-color: #FDF5D9;
+  padding: 0px 8px;
+  border-radius: 4px;
+      height: 24px;
+    line-height: 24px;
+}
+
+.products-block .ratings-wrapper .availability{
+  font-size: 14px;
+  text-transform: uppercase;
 }
