@@ -1400,6 +1400,7 @@ footer {
 .products-block .p-bottom .p-tools .pr-action .btn.btn-cart::before{
   background-image: url("https://janheder.github.io/vinoprikryl.cz/icons/cart-green.svg");
   margin-right: 8px;
+  background-size: contain;
 }
 .products-block .p-bottom .p-desc ~ *{
   display: none;
@@ -3955,4 +3956,18 @@ background-color: #fff;
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: 20px;
+}
+
+.flag.flag-action{
+  color: #B71F39;
+  background-color: #F6E4E7;
+
+}
+.flag.flag-tip {
+  color: #F0BA00;
+  background-color: #FDF5D9;
+}
+.flag.flag-new {
+  color: #2C8F35;
+  background-color: #EAF4EB;
 }
