@@ -634,7 +634,7 @@ input[type="search"].form-control {
   background:#2C8F35;
 }
 .products-block .p-bottom .p-tools .pr-action .btn.btn-cart:hover::before{ 
-  background:url("https://janheder.github.io/vinoprikryl.cz/icons/cart-white.svg");
+  background-image:url("https://janheder.github.io/vinoprikryl.cz/icons/cart-white.svg");
 }
 @media screen and (max-width: 575px){
   .products-block .p-bottom .prices{
@@ -1401,6 +1401,8 @@ footer {
   background-image: url("https://janheder.github.io/vinoprikryl.cz/icons/cart-green.svg");
   margin-right: 8px;
   background-size: contain;
+  height: 16px;
+  width: 16px;
 }
 .products-block .p-bottom .p-desc ~ *{
   display: none;
@@ -1886,10 +1888,6 @@ margin: 0;
   padding: 0;
 }
 
-.subcategories li a{
-  border:0;
-  border-radius: 4px;
-}
 @media (max-width: 991px){
   .subcategories{
     grid-template-columns: 1fr 1fr 1fr;
@@ -2068,6 +2066,9 @@ display: none;
   font-size: 16px;
   height: 66px;
   border-radius: 4px;
+  border:0;
+  border-radius: 4px;
+  font-weight: 400;
 }
 .subcategories li a:hover{
     color: #192E3A;
@@ -2406,9 +2407,7 @@ display: none;
 .newsletterSection__titleWrap{
 
 }
-.newsletterSection__title{
 
-}
 .newsletterSection__subTitle{
     color: #eee;
 
@@ -2654,7 +2653,7 @@ padding: 60px 0
   bottom: 0;
       background: #eee;
 }
-.newsletterSection__title{
+body .newsletterSection__title{
  font-family: "Signika" !important;
 font-style: normal;
 font-weight: 400;
