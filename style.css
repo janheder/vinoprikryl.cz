@@ -319,6 +319,7 @@ a, .link-like {
     background: #B71F39;
     height: 100%;
     margin: 0;
+    margin-right: 20px;
   }
   .header-top{
     height: auto;
@@ -2109,7 +2110,7 @@ display: none;
 }
 .top-nav-button-account {
   color: white;
-  margin-right: 20px;
+border-radius: 4px;
   display: flex;
   align-items:center;
   justify-content: center;
@@ -3963,7 +3964,7 @@ background-color: #fff;
 
 }
 .flag.flag-tip {
-  color: #F0BA00;
+  color: #c39000;
   background-color: #FDF5D9;
 }
 .flag.flag-new {
