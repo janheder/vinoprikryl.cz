@@ -1958,7 +1958,9 @@ margin: 0;
 .ordering-process #navigation{
   display: none;
 }
-
+.ordering-process .responsive-tools>a[data-target="navigation"]{
+  display: none;
+}
 
 
 ol.cart-header {
