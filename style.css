@@ -561,9 +561,6 @@ input[type="search"].form-control {
   display: none;
 }
 
-.products-block .ratings-wrapper .availability {
-  font-size: 15px;
-}
 
 .products-block .p-bottom>div {
   flex-direction: column;
@@ -637,6 +634,9 @@ input[type="search"].form-control {
   background-image:url("https://janheder.github.io/vinoprikryl.cz/icons/cart-white.svg");
 }
 @media screen and (max-width: 575px){
+  .flags-extra{
+    display: none;
+  }
   .products-block .p-bottom .prices{
     padding-bottom: 20px;
   }
@@ -681,7 +681,7 @@ input[type="search"].form-control {
   font-family: "Signika" !important;
 }
 @media screen and (max-width: 575px){
-  h4.homepage-group-title, .h4.homepage-group-title, .favoriteCategories__title {
+  .external-fonts-loaded h4.homepage-group-title, .external-fonts-loaded .h4.homepage-group-title, .external-fonts-loaded .favoriteCategories__title{
     margin-top: 0px;
     font-size: 30px;
     line-height: 32px;
@@ -2486,6 +2486,29 @@ color: #192E3A;
   line-height: 180%;
   color: #616161;
 }
+#footer h4{
+  padding-bottom: 0px;
+  margin-bottom: 30px;
+}
+#footer h4::after{
+  content: "";
+  background: rgba(101, 7, 82, 0.2);
+border-radius: 2px;
+  Width:50px;
+Height:6px;
+  display: flex;
+  margin-top: 20px;
+}
+.custom-footer {
+    margin: 0 -20px;
+}
+#footer ul li a {
+  padding-bottom: 5px;
+  display: flex;
+}
+.footer-bottom{
+  padding-top: 0;
+}
 #footer h4 span{
   font-family: 'Signika' !important;
 font-style: normal;
@@ -2497,7 +2520,14 @@ font-size: 20px;
 #footer .contact-box a, #footer .password-helper a, #footer .news-item-widget a, #footer ul a{
   font-size: 16px;
 }
-
+@media screen and (max-width: 767px){
+  #footer .contact-box a, #footer .password-helper a, #footer .news-item-widget a, #footer ul a{
+    font-size: 14px;
+  }
+  #footer h4 {
+    margin-bottom: 10px;
+}
+}
 .news-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -2695,29 +2725,7 @@ border-radius:  4px;
 .newsletterSection__consent, .newsletterSection__consent a{
   color: gray;
 }
-#footer h4{
-  padding-bottom: 0px;
-  margin-bottom: 30px;
-}
-#footer h4::after{
-  content: "";
-  background: rgba(101, 7, 82, 0.2);
-border-radius: 2px;
-  Width:50px;
-Height:6px;
-  display: flex;
-  margin-top: 20px;
-}
-.custom-footer {
-    margin: 0 -20px;
-}
-#footer ul li a {
-  padding-bottom: 5px;
-  display: flex;
-}
-.footer-bottom{
-  padding-top: 0;
-}
+
 
 @media (min-width: 992px){
   .popup-widget.login-widget {
@@ -3068,6 +3076,7 @@ font-size: 15px;
       padding: 30px 0;
       grid-template-columns: 1fr;
       grid-gap: 10px;
+      margin-bottom: 40px;
   }
   .benefitBanner__item img{
       height: 44px;
@@ -3776,6 +3785,12 @@ a, .link-like {
     padding-right: 15px;
 }
 }
+@media (max-width: 575px){
+  .row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+}
 @media screen and (max-width: 767px){
 .newsletterSection__titleWrap,.newsletterSection__form .consents-first {
     text-align:center;
@@ -3891,6 +3906,9 @@ table.table.border thead > tr > th, table.table.border tbody > tr > td{
 .products-block .ratings-wrapper .availability{
   display: flex;
   align-items:center;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: left;
 }
 .products-block .ratings-wrapper .availability::before{
   content: "";
@@ -3994,10 +4012,7 @@ background-color: #fff;
     line-height: 24px;
 }
 
-.products-block .ratings-wrapper .availability{
-  font-size: 14px;
-  text-transform: uppercase;
-}
+
 
 @media (max-width: 991px){
   ol.cart-header li a, ol.cart-header li strong{
@@ -4011,4 +4026,27 @@ background-color: #fff;
   ol.cart-header li.active{
     display: flex;
   }
+}
+
+
+
+@media (max-width: 767px){
+.content-wrapper.container .row .wide-carousel {
+  margin-bottom: 0px;
+}
+}
+
+
+
+@media (max-width: 767px){
+  .menu-level-1>li>a {
+    position: relative;
+    padding: 5px 43px 5px 20px !important;
+  }
+  .navigation-in>ul>li {
+    border-color: #e5e5e5;
+  }
+}
+.navigation-in a:hover{
+  color: #652057;
 }
