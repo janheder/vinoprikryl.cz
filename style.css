@@ -580,9 +580,10 @@ input[type="search"].form-control {
   color: #192E3A;
   font-weight: 500;
   line-height: 1.5;
-  height: auto;
   margin-bottom: 12px;
   font-size: 16px;
+  height: 45px;
+  overflow: hidden;
 }
 
 .products-block.products .p .name span {}
@@ -1170,7 +1171,7 @@ footer {
     height: 12px;
     position: absolute;
     right: 80px;
-    top: -6px;
+    top: -6px !important;
     transform: rotate(45deg);
     background: white;
   }
@@ -4049,4 +4050,10 @@ background-color: #fff;
 }
 .navigation-in a:hover{
   color: #652057;
+}
+
+
+.radio-wrapper input[type="radio"]+label {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
