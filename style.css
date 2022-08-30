@@ -4115,7 +4115,7 @@ border-radius: 5px;
   display: flex;
   justify-content: center;
   font-weight: 500;
-  font-size: 34px;
+  font-size: 32px;
   line-height: 1;
   margin: 0 auto;
   padding: 35px 0px 30px 0;
@@ -4227,10 +4227,11 @@ justify-content: center;
 }
 .advancedProduct-name{
   font-size: 28px;
-  text-transform: uppercase;
   font-weight: 500;
   border-bottom: 1px solid #eee;
   padding-bottom: 30px;
+  font-family: 'Signika' !important;
+    font-style: normal;
 }
 .advancedProduct-stock{
   display: flex;
