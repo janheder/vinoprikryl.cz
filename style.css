@@ -4073,7 +4073,7 @@ background-color: #fff;
 body.--advancedModal .advancedModal, body.--advancedModal .menu-helper{
   opacity: 1;
   pointer-events: auto;
-  z-index: 20;
+  z-index: 9999;
     background: rgba(0,0,0,0.2);
 }
 body.--advancedModal .menu-helper{
