@@ -4311,16 +4311,25 @@ justify-content: center;
 .box.box-bg-default.co-box.co-delivery-method, .box.box-bg-default.co-box.co-payment-method{
   background: white;
   margin-bottom: 20px;
-  padding: 40px;
+  padding: 40px 20px;
 }
 
 .radio-wrapper input[type="radio"]+label
 {
  outline: none;
-  border-bottom: 1px solid #E5E5E5;
+ border: 0;
+  border: none;
 }
 .shipping-billing-table{
   grid-gap: 0;
+}
+
+.order-delivery-payment-form .radio-wrapper input:checked+label {
+  border-radius: 3px;
+  outline: none;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+  border: none;
+  background: white;
 }
 
 @media screen and (max-width: 575px){
