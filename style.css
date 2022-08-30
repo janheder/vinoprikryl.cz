@@ -4306,3 +4306,25 @@ justify-content: center;
       padding-top: 20px;
   }
 }
+
+
+.box.box-bg-default.co-box.co-delivery-method, .box.box-bg-default.co-box.co-payment-method{
+  background: white;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+
+.radio-wrapper input[type="radio"]+label
+{
+ outline: none;
+  border-bottom: 1px solid #E5E5E5;
+}
+.shipping-billing-table{
+  grid-gap: 0;
+}
+
+@media screen and (max-width: 575px){
+  .box.box-bg-default.co-box.co-delivery-method, .box.box-bg-default.co-box.co-payment-method{
+    padding: 40px 20px;
+  }
+}
