@@ -4337,3 +4337,13 @@ justify-content: center;
     padding: 40px 20px;
   }
 }
+
+.advancedProduct-img{
+  position: relative;
+}
+.advancedProduct-img .flags{
+  left: 10px;
+  top: 10px;
+  right: auto;
+  position: absolute;
+}
