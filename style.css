@@ -4306,7 +4306,15 @@ justify-content: center;
       padding-top: 20px;
   }
 }
-
+.advancedProduct-img{
+  position: relative;
+}
+.advancedProduct-img .flags{
+  left: 10px;
+  top: 10px;
+  right: auto;
+  position: absolute;
+}
 
 .box.box-bg-default.co-box.co-delivery-method, .box.box-bg-default.co-box.co-payment-method{
   background: white;
@@ -4338,12 +4346,3 @@ justify-content: center;
   }
 }
 
-.advancedProduct-img{
-  position: relative;
-}
-.advancedProduct-img .flags{
-  left: 10px;
-  top: 10px;
-  right: auto;
-  position: absolute;
-}
