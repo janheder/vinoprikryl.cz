@@ -4452,3 +4452,34 @@ color: #2C8F35;
   margin-bottom: 0px;
 } 
 }
+
+.param-filter-top form fieldset{
+  display: flex;
+}
+.filter-sections fieldset{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+#content .filter-section fieldset > div{
+width: auto;
+display: flex;
+}
+.filter-sections fieldset label{
+    display: flex;
+margin: 0;
+}
+.filter-count {
+  display: flex;
+justify-content: center;
+align-items:center;
+  margin-left: 10px;
+  padding: 0;
+width: 16px;
+height: 16px;
+font-size: 12px;
+    flex-shrink: 0;
+}
+.top-nav-button-account{
+margin-right: 20px;
+}
