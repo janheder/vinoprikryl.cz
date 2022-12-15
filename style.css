@@ -4483,3 +4483,61 @@ font-size: 12px;
 .top-nav-button-account{
 margin-right: 20px;
 }
+
+
+#newsletterSection {
+  z-index: 8;
+}
+.products-block .ratings-wrapper .availability{
+color: #2C8F35;
+}
+.products-block .ratings-wrapper .availability span{
+color: #2C8F35 !important;
+}
+.availability-amount{
+opacity: 0.7;
+margin-left: 5px;
+    color: #192E3A;
+
+}
+.p-info-wrapper .availability-value{
+display: flex;
+}
+.availability-label {
+  flex-grow: 0;
+padding-right: 0;
+}
+.p-info-wrapper .availability-label {
+  font-size: 16px;
+}
+.p-info-wrapper .availability-value .availability-amount{
+font-size: 14px;
+}
+.p-info-wrapper .detail-parameters .sold-out{
+margin-top: 20px;
+}
+.p-info-wrapper .detail-parameters .sold-out td{
+background: #F9FAFB;
+padding: 40px 15px;
+font-size: 16px;
+text-align:center;
+
+}
+
+.availability-label{
+color: #2C8F35 !important;
+}
+.footer-bottom {
+  padding-bottom: 30px;
+}
+
+.btn.btn-primary:hover, a.btn.btn-primary:hover{
+background: #24762c
+}
+.p:hover .btn-primary{
+background-color: #2C8F35;
+}
+.p .btn.btn-primary{
+background: rgba(44,143,53,0.1);
+  color: #24762c;
+}
