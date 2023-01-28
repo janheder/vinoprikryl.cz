@@ -103,7 +103,7 @@ a, .link-like {
   text-decoration: none;
   line-height: 1;
   text-transform: none;
-  font-size: 16px;
+  font-size: 15px;
   border-width: 0px;
 }
 
@@ -316,7 +316,7 @@ a, .link-like {
     width: auto;
     color: white;
     padding: 0 25px;
-    background: #B71F39;
+    background: #EB6B6D;
     height: 100%;
     margin: 0;
     margin-right: 20px;
@@ -336,7 +336,7 @@ a, .link-like {
   }
 
   #navigation::before {
-    content: "";
+    content: none;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -355,6 +355,7 @@ a, .link-like {
     z-index: 1;
     width: 100%;
     position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
   }
 
   .navigation-in>ul>li {
@@ -383,7 +384,7 @@ a, .link-like {
     height: 100%;
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 15px;
     padding: 0 25px;
     text-align: center;
   }
@@ -445,7 +446,7 @@ a, .link-like {
 
 input[type="search"].form-control {
   height: 50px;
-  font-size: 16px;
+  font-size: 15px;
   padding: 0 20px;
   color: #192E3A;
   border: 0;
@@ -581,7 +582,7 @@ input[type="search"].form-control {
   font-weight: 500;
   line-height: 1.5;
   margin-bottom: 12px;
-  font-size: 16px;
+  font-size: 15px;
   height: 45px;
   overflow: hidden;
 }
@@ -601,7 +602,7 @@ input[type="search"].form-control {
 }
 
 .products-block.products .p .price strong, .products-block.products .p .price span {
-  color: #B71F39;
+  color: #EB6B6D;
 }
 
 .btn.btn-conversion, a.btn.btn-conversion, .btn.btn-cart, a.btn.btn-cart, .btn.btn-primary, a.btn.btn-primary {
@@ -856,7 +857,7 @@ input[type="search"].form-control {
 .p-info-wrapper .availability-value {
   order: 10;
   margin: 0;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .p-info-wrapper .detail-parameters {
@@ -914,7 +915,7 @@ input[type="search"].form-control {
   height: 100%;
   width: 100%;
   flex-grow: 1;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -960,7 +961,7 @@ input[type="search"].form-control {
 
 .btn.btn-cart.btn-lg, a.btn.btn-cart.btn-lg, .btn.add-to-cart-button.btn-lg, a.btn.add-to-cart-button.btn-lg {
   height: 62px;
-  font-size: 16px;
+  font-size: 15px;
   width: 100%;
   max-width: 280px;
 }
@@ -1058,7 +1059,7 @@ color: #192E3A;
 
 .shp-tabs-wrapper .description-inner .basic-description p {
   text-align: center;
-font-size: 16px;
+font-size: 15px;
 }
 
 .shp-tabs-wrapper .description-inner .extended-description {
@@ -1086,7 +1087,7 @@ font-size: 16px;
 }
 .shp-tabs-wrapper .description-inner .extended-description .detail-parameters th, .shp-tabs-wrapper .description-inner .extended-description .detail-parameters td {
   padding: 11px 20px;
-  font-size: 16px;
+  font-size: 15px;
   flex-basis: 100%;
 }
 .shp-tabs-wrapper .description-inner .extended-description .detail-parameters tr:nth-child(even){ 
@@ -1436,7 +1437,7 @@ footer {
     align-items: center;
     border-radius: 4px;
     padding: 0 25px;
-    font-size: 16px;
+    font-size: 15px;
 }
 @media (max-width: 767px) {
   .navigation-buttons a[data-target="login"]{
@@ -2065,7 +2066,7 @@ display: none;
 
 .subcategories li a{
   color: #192E3A;
-  font-size: 16px;
+  font-size: 15px;
   height: 66px;
   border-radius: 4px;
   border:0;
@@ -2117,7 +2118,7 @@ border-radius: 4px;
   justify-content: center;
   border: 1px solid rgba(255,255,255,0.1);
   padding: 0 25px;
-  font-size: 16px;
+  font-size: 15px;
 }
 .top-nav-button-account:hover{
   color: white;
@@ -2519,7 +2520,7 @@ font-size: 20px;
   color: #192E3A;
 }
 #footer .contact-box a, #footer .password-helper a, #footer .news-item-widget a, #footer ul a{
-  font-size: 16px;
+  font-size: 15px;
 }
 @media screen and (max-width: 767px){
   #footer .contact-box a, #footer .password-helper a, #footer .news-item-widget a, #footer ul a{
@@ -2598,7 +2599,7 @@ font-size: 20px;
 
 }
 .news-item .description{
-    font-size: 16px;
+    font-size: 15px;
     order: 1;
     color: #6C6C6C;
     width: 100%;
@@ -2696,7 +2697,7 @@ color: #192E3A;
 }
 .newsletterSection__subTitle{
   font-weight: 400;
-font-size: 16px;
+font-size: 15px;
 line-height: 40px;
 color: rgba(25, 46, 58, 0.8);
 }
@@ -2807,7 +2808,7 @@ ol.cart-header li a, ol.cart-header li strong{
   padding: 20px;
   line-height: 1;
    text-transform: none;
-  font-size: 16px;
+  font-size: 15px;
 }
 ol.cart-header li.active a, ol.cart-header li.active strong{
   text-transform: none;
@@ -2854,7 +2855,7 @@ font-size: 15px;
 .cart-table  .p-total .price-final{
   margin-right: 30px;
 font-size: 18px;
-color: #B71F39;
+color: #EB6B6D;
 }
 .cart-table tr>td.p-total{
  position: relative;
@@ -2942,7 +2943,7 @@ margin: 0;
     line-height: 42px;
 margin-right: 10px;
     color: #192E3A;
-font-size: 16px;
+font-size: 15px;
 }
 ol.cart-header li a, ol.cart-header li strong, ol.cart-header li a:hover{
  color: #192E3A;
@@ -2968,7 +2969,7 @@ margin-bottom: 0;
 border-bottom: 2px solid #E5E5E5;
 }
 .cart-table tr td.p-name a{
-font-size: 16px;
+font-size: 15px;
 font-weight: 500;
  color: #192E3A;
 }
@@ -3736,7 +3737,7 @@ display: flex;
   background: white;
  padding: 18px 20px;
 width: 100%;
-font-size: 16px;
+font-size: 15px;
 border-radius: 5px;
 }
 .cart-inner.cart-empty .empty-cart-boxes ul li a:hover {
@@ -3984,7 +3985,7 @@ background-color: #fff;
 }
 
 .flag.flag-action{
-  color: #B71F39;
+  color: #EB6B6D;
   background-color: #F6E4E7;
 
 }
@@ -4271,7 +4272,7 @@ justify-content: center;
   color: #192E3A;
 }
 .advancedProduct-priceTotal span{
-  color: #B71F39;
+  color: #EB6B6D;
 }
 
 @media screen and (max-width: 767px){
@@ -4354,7 +4355,7 @@ justify-content: center;
 
 .top-navigation-contacts a.project-phone::before , .top-navigation-contacts a.project-email::before {
    
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #header .cart-count{
@@ -4508,7 +4509,7 @@ display: flex;
 padding-right: 0;
 }
 .p-info-wrapper .availability-label {
-  font-size: 16px;
+  font-size: 15px;
 }
 .p-info-wrapper .availability-value .availability-amount{
 font-size: 14px;
@@ -4519,7 +4520,7 @@ margin-top: 20px;
 .p-info-wrapper .detail-parameters .sold-out td{
 background: #F9FAFB;
 padding: 40px 15px;
-font-size: 16px;
+font-size: 15px;
 text-align:center;
 
 }
