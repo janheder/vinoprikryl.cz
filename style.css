@@ -292,6 +292,7 @@ a, .link-like {
     position: relative;
     right: 0;
     margin-left: 0px;
+    padding: 0 20px;
   }
   .scrolled-down body:not(.ordering-process):not(.search-window-visible) #header .cart-count {
     transform: translateY(0%);
@@ -1415,11 +1416,12 @@ footer {
 .products-block .p-bottom .p-desc ~ *{
   display: none;
 }
-
+/*
 .homepage-box.before-carousel .container{
   max-width: 1920px;
   padding: 0;
 }
+*/
 .top-navigation-bar .top-navigation-tools{
   display: none !important;
 }
