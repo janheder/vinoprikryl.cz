@@ -293,6 +293,7 @@ a, .link-like {
     right: 0;
     margin-left: 0px;
     padding: 0 20px;
+    font-size: 15px;
   }
   .scrolled-down body:not(.ordering-process):not(.search-window-visible) #header .cart-count {
     transform: translateY(0%);
@@ -386,7 +387,7 @@ a, .link-like {
     display: flex;
     align-items: center;
     font-size: 15px;
-    padding: 0 25px;
+    padding: 0 15px;
     text-align: center;
   }
 
@@ -1921,7 +1922,7 @@ margin: 0;
 
 .menu-level-1>li.ext>a {
   position: relative;
-  padding: 0 43px 0 20px !important;
+  padding: 0 28px 0 15px !important;
 }
 .menu-level-1>li.ext>a::before {
   content: "";
