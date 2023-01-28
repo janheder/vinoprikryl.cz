@@ -286,6 +286,8 @@ a, .link-like {
   #header .cart-count {
     top: 0;
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
     width: 50px;
     margin: 0;
     height: 100%;
@@ -312,12 +314,8 @@ a, .link-like {
   }
 
   #header .cart-count {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
     width: auto;
     color: white;
-    padding: 0 25px;
     background: #EB6B6D;
     height: 100%;
     margin: 0;
