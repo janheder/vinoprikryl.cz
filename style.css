@@ -294,8 +294,6 @@ a, .link-like {
     position: relative;
     right: 0;
     margin-left: 0px;
-    padding: 0 20px;
-    font-size: 15px;
   }
   .scrolled-down body:not(.ordering-process):not(.search-window-visible) #header .cart-count {
     transform: translateY(0%);
@@ -320,6 +318,8 @@ a, .link-like {
     height: 100%;
     margin: 0;
     margin-right: 20px;
+    padding: 0 20px;
+    font-size: 15px;
   }
   .header-top{
     height: auto;
