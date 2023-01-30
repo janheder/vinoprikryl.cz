@@ -534,7 +534,7 @@ input[type="search"].form-control {
     font-weight: 500;
 }
 .flags-extra .flag .price-standard, .flags-extra .flag .price-save{
-  font-size: 17px;
+  font-size: 16px;
   margin-top: -8px;
 }
 .flag.flag-discount .price-standard{
@@ -4395,7 +4395,7 @@ ol.cart-header li {
 }
 .products-block .ratings-wrapper {
 
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 .products-block>div.product:hover {
    
@@ -4500,6 +4500,7 @@ color: #2C8F35;
 }
 .products-block .ratings-wrapper .availability span{
 color: #2C8F35 !important;
+line-height: 1;
 }
 .availability-amount{
 opacity: 0.7;
