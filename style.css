@@ -222,7 +222,7 @@ a, .link-like {
 
 
 .header-top .btn.cart-count::before {
-  margin-right: 12px;
+  margin-right: 8px;
   height: 100%;
   content: "";
   background: transparent;
@@ -306,7 +306,7 @@ a, .link-like {
 @media (min-width: 768px) {
 
   #header .navigation-buttons {
-    height: 50px;
+    height: 46px;
     padding: 0;
     flex-wrap: nowrap;
   }
@@ -318,7 +318,7 @@ a, .link-like {
     height: 100%;
     margin: 0;
     margin-right: 20px;
-    padding: 0 20px;
+    padding: 0 18px;
     font-size: 15px;
   }
   .header-top{
@@ -1437,7 +1437,7 @@ footer {
   justify-content: center;
     align-items: center;
     border-radius: 4px;
-    padding: 0 25px;
+    padding: 0 18px;
     font-size: 15px;
 }
 @media (max-width: 767px) {
