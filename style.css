@@ -5079,10 +5079,6 @@ body.--advancedModal {
   flex-direction: column;
 }
 
-.cart-content .next-step .next-step-back {
-  display: none;
-}
-
 .next-step #submit-order {
   width: 100%;
 }
@@ -5111,4 +5107,22 @@ body.--advancedModal {
 .product-top::before,
 .product-top::after {
   content: none;
+}
+
+
+.in-krok-2 .cart-content .next-step .next-step-back{
+  display: none;
+}
+a.next-step-back{
+  color: #333;
+}
+a.next-step-back:hover{
+  color: #262626;
+}
+.radio-wrapper input[type="radio"]+label{
+  border-top: 3px solid #f9f9f9;
+}
+.order-delivery-payment-form .radio-wrapper input:checked+label{
+  transform:  none;
+    border-top: 3px solid #f9f9f9;
 }
