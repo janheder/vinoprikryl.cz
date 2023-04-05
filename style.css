@@ -2041,7 +2041,7 @@ body.cookies-visible {
 
 .menu-level-1>li.ext>a {
   position: relative;
-  padding: 0 38px 0 15px !important;
+  padding: 0 38px 0 20px !important;
 }
 
 .menu-level-1>li.ext>a::before {
